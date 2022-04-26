@@ -16,7 +16,7 @@ go to the character-wise visual mode: `v`
 go to the line-wise visual mode: `V`  
 
 # Specialized pages
-[Navigation](navigation.md)
+[Navigation](navigation.md)  
 [Editing](editing.md)
 
 # External links
