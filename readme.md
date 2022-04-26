@@ -3,10 +3,12 @@ I don't see much sense into mastering all the immense capabilities of Vim/Inteli
 
 # General
 Exit w/o saving: `:q!`  
+Exit from all splits: `qa`  
 Exit and save: `:wq!`  
 Go to insert mode: `i`  
 Go to normal mode: `ESC` or `CTRL+C`
 Repeat last change: `.`  
+Open file: `:open {filename}`  
 
 # Searching
 search forward: `/{pattern}`  

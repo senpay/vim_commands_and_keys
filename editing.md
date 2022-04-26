@@ -2,6 +2,8 @@
 ## Editing commands
 copy (yanking): `y`  
 delete: `d`  
+Copy whole line: `Y`   
+duplicate line:  `YP` or `Yp`  
 delete the whole like: `dd`  
 delete paragraph: `dp`  
 delete until end of line: `D`  

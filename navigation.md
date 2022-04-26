@@ -20,7 +20,7 @@ go to the top of the file: `gg`
 go to the end of the file: `G`  
 
 ## Other
-**Important:**  go to the definition: `gd`  
+**Important:**  go to the definition (does not work in GVIM): `gd`  
 
 we can always append numbers, for example:
 ```
