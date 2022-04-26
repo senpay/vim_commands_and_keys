@@ -42,3 +42,6 @@ continue search backward: `N`
 find symbol on the line: `f{symbol}`  
 
 # Visual mode
+
+# External links
+https://www.barbarianmeetscoding.com/boost-your-coding-fu-with-vscode-and-vim/cheatsheet
