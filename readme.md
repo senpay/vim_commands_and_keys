@@ -35,8 +35,8 @@ we can always append numbers, for example:
 ```
 
 # Searching
-search forward: `/{pattern}  
-search backward: `?{pattern}  
+search forward: `/{pattern}`  
+search backward: `?{pattern}`  
 continue search forward: `n`  
 continue search backward: `N`  
 find symbol on the line: `f{symbol}`  
