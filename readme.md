@@ -19,6 +19,16 @@ find symbol on the line: `f{symbol}`
 go to the character-wise visual mode: `v`  
 go to the line-wise visual mode: `V`  
 
+# Multiple cursors
+add multiple cursors:
+  1. Select lines you want to change (using visual mode)
+  2. type `I`
+
+add cursor for word:
+  1. move cursor to the start of the word
+  1. type `gb` to add another cursor
+  1. repeat :) then use `c`, `ESC` or `d` or whatever
+
 # Specialized pages
 [Navigation](navigation.md)  
 [Editing](editing.md)
