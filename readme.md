@@ -18,8 +18,11 @@ find symbol on the line: `f{symbol}`
 # Visual mode
 go to the character-wise visual mode: `v`  
 go to the line-wise visual mode: `V`  
+to select "block": `CTRL+v`  
 
 # Multiple cursors
+*Note: works in VSCode, doesn't work in GVIM*
+
 add multiple cursors:
   1. Select lines you want to change (using visual mode)
   2. type `I`
