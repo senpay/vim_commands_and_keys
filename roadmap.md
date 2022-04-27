@@ -1321,9 +1321,15 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
         </tr>
         <tr>
             <td>ctrl+shift+a</td>
-            <td>shift+ctrl+a</td>
+            <td>ctrl+shift+a</td>
             <td>Find Action</td>
-            <td>?</td>
+            <td>✅ (VSCode, Intellij)</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>Find Action</td>
+            <td>✅ (Vim, see more here: [wildmenu](wildmenu.md))</td>
         </tr>
         <tr>
             <td>ctrl+tab</td>
