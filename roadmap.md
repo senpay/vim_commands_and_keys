@@ -7,7 +7,7 @@ The utimate goal is to come up with the shortcuts that would work the same in al
   - My tailored Vim installation
 
 
-*Important bit: The key shortucts are actually a mix of Intellij Keybindings and Vim plugin shortcut. I would just choose what would be most natural/easier to configure from my standpoint.*
+*Important bit: The key shortucts are actually a mix of Intellij Keybindings and Vim plugin shortcut. I would just choose what would be most natural/easier to configure from my standpoint. I also deleted duplication from the original table (where there were more than one way to do something).*
 
 *Another bit: For now I have single .vimrc both for Windows and Linux. It can change.*
 
@@ -1105,25 +1105,25 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>ctrl+alt+k</td>
             <td>ctrl+k</td>
             <td>Commit project to VCS</td>
-            <td>?</td>
+            <td>❌ (no current VCS support)</td>
         </tr>
         <tr>
             <td>ctrl+shift+k</td>
             <td>ctrl+alt+k</td>
             <td>Push commits to VCS</td>
-            <td>?</td>
+            <td>❌ (no current VCS support)</td>
         </tr>
         <tr>
             <td>ctrl+t</td>
             <td>ctrl+t</td>
             <td>Update project from VCS</td>
-            <td>?</td>
+            <td>❌ (no current VCS support)</td>
         </tr>
         <tr>
             <td>ctrl+alt+z</td>
             <td>ctrl+alt+z</td>
             <td>Rollback Lines</td>
-            <td>?</td>
+            <td>❌ (no current VCS support)</td>
         </tr>
         <tr>
             <td>alt+shift+c</td>
@@ -1182,52 +1182,40 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>?</td>
         </tr>
         <tr>
-            <td>alt+1</td>
-            <td>ctrl+1</td>
+            <td>:NERDTree</td>
+            <td>:NERDTree</td>
             <td>Open corresponding tool window (Explorer)</td>
-            <td>?</td>
+            <td>✅</td>
         </tr>
         <tr>
-            <td>alt+numpad1</td>
-            <td>ctrl+numpad1</td>
-            <td>Open corresponding tool window (Explorer)</td>
-            <td>?</td>
-        </tr>
-        <tr>
-            <td>alt+1</td>
-            <td>ctrl+1</td>
+            <td>:q</td>
+            <td>:q</td>
             <td>Close corresponding tool window (Explorer)</td>
-            <td>?</td>
-        </tr>
-        <tr>
-            <td>alt+numpad1</td>
-            <td>ctrl+numpad1</td>
-            <td>Close corresponding tool window (Explorer)</td>
-            <td>?</td>
+            <td>✅</td>
         </tr>
         <tr>
             <td>alt+3</td>
             <td>ctrl+3</td>
             <td>Open corresponding tool window (Search)</td>
-            <td>?</td>
+            <td>❌ (no current Search window support)</td>
         </tr>
         <tr>
             <td>alt+numpad3</td>
             <td>ctrl+numpad3</td>
             <td>Open corresponding tool window (Search)</td>
-            <td>?</td>
+            <td>❌ (no current Search window support)</td>
         </tr>
         <tr>
             <td>alt+3</td>
             <td>ctrl+3</td>
             <td>Close corresponding tool window (Search)</td>
-            <td>?</td>
+            <td>❌ (no current Search window support)</td>
         </tr>
         <tr>
             <td>alt+numpad3</td>
             <td>ctrl+numpad3</td>
             <td>Close corresponding tool window (Search)</td>
-            <td>?</td>
+            <td>❌ (no current Search window support)</td>
         </tr>
         <tr>
             <td>alt+5</td>
@@ -1257,31 +1245,31 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>alt+9</td>
             <td>ctrl+9</td>
             <td>Open corresponding tool window (Git)</td>
-            <td>?</td>
+            <td>❌ (no current git support)</td>
         </tr>
         <tr>
             <td>alt+numpad9</td>
             <td>ctrl+numpad9</td>
             <td>Open corresponding tool window (Git)</td>
-            <td>?</td>
+            <td>❌ (no current git support)</td>
         </tr>
         <tr>
             <td>alt+9</td>
             <td>ctrl+9</td>
             <td>Close corresponding tool window (Git)</td>
-            <td>?</td>
+            <td>❌ (no current git support)</td>
         </tr>
         <tr>
             <td>alt+numpad9</td>
             <td>ctrl+numpad9</td>
             <td>Close corresponding tool window (Git)</td>
-            <td>?</td>
+            <td>❌ (no current git support)</td>
         </tr>
         <tr>
-            <td>ctrl+s</td>
-            <td>ctrl+s</td>
+            <td>:wa</td>
+            <td>:wa</td>
             <td>Save all</td>
-            <td>?</td>
+            <td>✅</td>
         </tr>
         <tr>
             <td>ctrl+alt+y</td>
@@ -1293,13 +1281,13 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>ctrl+alt+f</td>
             <td>ctrl+ctrl+f</td>
             <td>Toggle full screen mode</td>
-            <td>?</td>
+            <td>❌</td>
         </tr>
         <tr>
             <td>ctrl+shift+f12</td>
             <td>ctrl+shift+f12</td>
             <td>Toggle maximizing editor</td>
-            <td>?</td>
+            <td>❌</td>
         </tr>
         <tr>
             <td>alt+shift+f</td>
@@ -1347,13 +1335,13 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>ctrl+tab</td>
             <td>ctrl+tab</td>
             <td>Switch between tabs and tool window</td>
-            <td>?</td>
+            <td>❌</td>
         </tr>
         <tr>
             <td>shift+f12</td>
             <td>shift+f12</td>
             <td>Restore Default layout</td>
-            <td>?</td>
+            <td>❌</td>
         </tr>
     </tbody>
 </table>
@@ -1399,52 +1387,52 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>?</td>
         </tr>
         <tr>
-            <td>alt+ctrl+enter</td>
-            <td>alt+ctrl+enter</td>
+            <td>O</td>
+            <td>O</td>
             <td>Start new line before current</td>
-            <td>?</td>
+            <td>✅</td>
         </tr>
         <tr>
-            <td>shift+ctrl+enter</td>
-            <td>shift+ctrl+enter</td>
+            <td>o</td>
+            <td>o</td>
             <td>Start new line</td>
-            <td>?</td>
+            <td>✅</td>
         </tr>
         <tr>
             <td>alt+f12</td>
             <td>alt+f12</td>
             <td>Opens and focuses corresponding tool window (Terminal)</td>
-            <td>?</td>
+            <td>❌ (no current terminal support)</td>
         </tr>
         <tr>
             <td>alt+f12</td>
             <td>alt+f12</td>
             <td>Close corresponding tool window (Terminal)</td>
-            <td>?</td>
+            <td>❌ (no current terminal support)</td>
         </tr>
         <tr>
             <td>ctrl+shift+alt+j</td>
             <td>ctrl+ctrl+g</td>
             <td>Sublime Text style multiple selections</td>
-            <td>?</td>
+            <td>❌</td>
         </tr>
         <tr>
             <td>alt+left</td>
             <td>shift+ctrl+[</td>
             <td>Select previous tab (Terminal)</td>
-            <td>?</td>
+            <td>❌ (no current terminal support)</td>
         </tr>
         <tr>
             <td>alt+right</td>
             <td>shift+ctrl+]</td>
             <td>Select next tab (Terminal)</td>
-            <td>?</td>
+            <td>❌ (no current terminal support)</td>
         </tr>
         <tr>
             <td>alt+tab</td>
             <td>alt+tab</td>
             <td>Goto next splitter</td>
-            <td>?</td>
+            <td>❌ (no current terminal support)</td>
         </tr>
         <tr>
             <td>shift+alt+tab</td>
@@ -1456,7 +1444,7 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>enter</td>
             <td>enter</td>
             <td>Open Highlighted File (Explorer)</td>
-            <td>?</td>
+            <td>✅</td>
         </tr>
         <tr>
             <td>alt+home</td>
