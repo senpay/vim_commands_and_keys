@@ -966,7 +966,7 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>ctrl+shift+t</td>
             <td>ctrl+shift+t</td>
             <td>Go to Test</td>
-            <td>?</td>
+            <td>❌</td>
         </tr>
     </tbody>
 </table>

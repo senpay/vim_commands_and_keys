@@ -61,6 +61,12 @@ syntax on
 "custom shortcut mapping (goal is to make it as close to vscode as possible)
 "duplicate line
 nnoremap <C-d> Yp
+
+"Lsp section
+"Doesn't work in window-ed environment, conflicts with full screen hotkey
+map <M-CR> :LspCodeActions<CR>
+map <M-F7> :LspReferences<CR>
+
 "show autocomplete options
 imap <C-space> <Plug>(asyncomplete_force_refresh)
 
