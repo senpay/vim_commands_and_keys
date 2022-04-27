@@ -7,6 +7,10 @@ Go to normal mode: `ESC` or `CTRL+C`
 Repeat last change: `.`  
 Open file: `:open {filename}`  
 
+# Splits
+Open file in vertical split: `:vsplit {filename}`  
+Navigate between splits: `CTRL+W (corresponding arrow)`  
+
 # Searching
 search forward: `/{pattern}`  
 search backward: `?{pattern}`  
