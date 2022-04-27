@@ -1329,7 +1329,7 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td></td>
             <td></td>
             <td>Find Action</td>
-            <td>✅ (Vim, see more here: <a href="blob/main/wildmenu.md">wildmenu</a>)</td>
+            <td>✅ (Vim, see more here: <a href="wildmenu.md">wildmenu</a>)</td>
         </tr>
         <tr>
             <td>ctrl+tab</td>
