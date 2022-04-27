@@ -14,3 +14,5 @@ Plugin manager I use: https://github.com/junegunn/vim-plug
 
 # External links
 https://www.barbarianmeetscoding.com/boost-your-coding-fu-with-vscode-and-vim/cheatsheet
+https://github.com/mattn/vim-lsp-settings
+https://github.com/prabirshrestha/vim-lsp

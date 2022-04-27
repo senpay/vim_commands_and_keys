@@ -1,5 +1,11 @@
 # Intro
-The final goal of my .vimrc is to make a vim-based replica of `VSCode + Intellij Keybindings + VimPlug` experience. That's why I start by copying the table from https://marketplace.visualstudio.com/items?itemName=k--kato.intellij-idea-keybindings.
+The final goal of my .vimrc is to make a vim-based replica of `VSCode + Intellij Keybindings + Vim Plugin` experience. That's why I start by copying the table from https://marketplace.visualstudio.com/items?itemName=k--kato.intellij-idea-keybindings.
+
+The utimate goal is to come up with the shortcuts that would work the same in all three:
+  - VSCode + Intellij Keybindings + Vim Plugin
+  - Intellij IDEA + Vim Plugin
+  - My tailored Vim installation
+
 
 *Important bit: The key shortucts are actually a mix of Intellij Keybindings and Vim plugin shortcut. I would just choose what would be most natural/easier to configure from my standpoint.*
 
@@ -174,7 +180,7 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>ctrl+alt+l</td>
             <td>ctrl+alt+l</td>
             <td>Reformat selected code</td>
-            <td>?</td>
+            <td>❌</td>
         </tr>
         <tr>
             <td>ctrl+alt+o</td>
@@ -231,16 +237,16 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>✅</td>
         </tr>
         <tr>
-            <td>ctrl+d</td>
-            <td>ctrl+d</td>
+            <td>yP</td>
+            <td>yP</td>
             <td>Duplicate Selection</td>
-            <td>?</td>
+            <td>✅</td>
         </tr>
         <tr>
-            <td>ctrl+y</td>
-            <td>ctrl+backspace</td>
+            <td>dd</td>
+            <td>dd</td>
             <td>Delete line at caret</td>
-            <td>?</td>
+            <td>✅</td>
         </tr>
         <tr>
             <td>ctrl+shift+j</td>
@@ -279,10 +285,10 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>N/A</td>
         </tr>
         <tr>
-            <td>ctrl+delete</td>
-            <td>alt+delete</td>
+            <td>dw</td>
+            <td>dw</td>
             <td>Delete to word end</td>
-            <td>?</td>
+            <td>✅</td>
         </tr>
         <tr>
             <td>ctrl+backspace</td>
@@ -291,20 +297,14 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>?</td>
         </tr>
         <tr>
-            <td>ctrl+=</td>
-            <td>ctrl+=</td>
+            <td>zo</td>
+            <td>zo</td>
             <td>Expand code block</td>
             <td>?</td>
         </tr>
         <tr>
-            <td>ctrl+numpad_add</td>
-            <td>ctrl+numpad_add</td>
-            <td>Expand code block</td>
-            <td>?</td>
-        </tr>
-        <tr>
-            <td>ctrl+-</td>
-            <td>ctrl+-</td>
+            <td>zc</td>
+            <td>zc</td>
             <td>Collapse code block</td>
             <td>?</td>
         </tr>
