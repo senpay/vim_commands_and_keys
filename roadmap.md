@@ -402,8 +402,8 @@ A little bit of legend:
 <table>
     <thead>
         <tr>
-            <th>Linux, Windows</th>
-            <th>macOS</th>
+            <th>Linux</th>
+            <th>Windows</th>
             <th>Feature</th>
             <th>Supported</th>
         </tr>
@@ -469,8 +469,8 @@ A little bit of legend:
 <table>
     <thead>
         <tr>
-            <th>Linux, Windows</th>
-            <th>macOS</th>
+            <th>Linux</th>
+            <th>Windows</th>
             <th>Feature</th>
             <th>Supported</th>
         </tr>
@@ -512,8 +512,8 @@ A little bit of legend:
 <table>
     <thead>
         <tr>
-            <th>Linux, Windows</th>
-            <th>macOS</th>
+            <th>Linux</th>
+            <th>Windows</th>
             <th>Feature</th>
             <th>Supported</th>
         </tr>
@@ -573,8 +573,8 @@ A little bit of legend:
 <table>
     <thead>
         <tr>
-            <th>Linux, Windows</th>
-            <th>macOS</th>
+            <th>Linux</th>
+            <th>Windows</th>
             <th>Feature</th>
             <th>Supported</th>
         </tr>
@@ -652,8 +652,8 @@ A little bit of legend:
 <table>
     <thead>
         <tr>
-            <th>Linux, Windows</th>
-            <th>macOS</th>
+            <th>Linux</th>
+            <th>Windows</th>
             <th>Feature</th>
             <th>Supported</th>
         </tr>
@@ -995,8 +995,8 @@ A little bit of legend:
 <table>
     <thead>
         <tr>
-            <th>Linux, Windows</th>
-            <th>macOS</th>
+            <th>Linux</th>
+            <th>Windows</th>
             <th>Feature</th>
             <th>Supported</th>
         </tr>
@@ -1092,8 +1092,8 @@ A little bit of legend:
 <table>
     <thead>
         <tr>
-            <th>Linux, Windows</th>
-            <th>macOS</th>
+            <th>Linux</th>
+            <th>Windows</th>
             <th>Feature</th>
             <th>Supported</th>
         </tr>
@@ -1135,8 +1135,8 @@ A little bit of legend:
 <table>
     <thead>
         <tr>
-            <th>Linux, Windows</th>
-            <th>macOS</th>
+            <th>Linux</th>
+            <th>Windows</th>
             <th>Feature</th>
             <th>Supported</th>
         </tr>
@@ -1160,8 +1160,8 @@ A little bit of legend:
 <table>
     <thead>
         <tr>
-            <th>Linux, Windows</th>
-            <th>macOS</th>
+            <th>Linux</th>
+            <th>Windows</th>
             <th>Feature</th>
             <th>Supported</th>
         </tr>
@@ -1359,8 +1359,8 @@ A little bit of legend:
 <table>
     <thead>
         <tr>
-            <th>Linux, Windows</th>
-            <th>macOS</th>
+            <th>Linux</th>
+            <th>Windows</th>
             <th>Feature</th>
             <th>Supported</th>
         </tr>
@@ -1485,7 +1485,7 @@ A little bit of legend:
             <td>shift+f10</td>
             <td>ctrl+r</td>
             <td>Go: Test Previous</td>
-            <td>?</td>
+            <td>❌</td>
         </tr>
     </tbody>
 </table>
