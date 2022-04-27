@@ -2,13 +2,22 @@
 Exit w/o saving: `:q!`  
 Exit from all splits: `qa`  
 Exit and save: `:wq!`  
-Go to insert mode: `i`  
 Go to normal mode: `ESC` or `CTRL+C`
 Repeat last change: `.`  
 Open file: `:open {filename}`  
 
+# Insert mode
+Go to insert mode: `i`  
+Append text at the end of line: `A`  
+Add line below and go to insert mode: `o`  
+Add line above and go to insert mode: `O`  
+Remove last character typed: `CTRL+H`  
+Remove last word typed: `CTRL+W`  
+Remove last line typed: `CTRL+U`  
+
+
 # Splits
-Open file in vertical split: `:vsplit {filename}`  
+Open file in vertical split: `:vsp {filename}`  
 Navigate between splits: `CTRL+W (corresponding arrow)`  
 
 # Searching

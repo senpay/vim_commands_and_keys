@@ -13,6 +13,17 @@ add indentation: `>>`
 remove indentation: `<<`  
 format code: `==`  
 
+# Registers
+
+- The **unnamed register** `"` is where you copy and cut stuff to, when you don’t explicitly specify a register. The default register if you will.
+- The **named registers** `a-z` are registers you can use explicitly to copy and cut text at will
+- The **yank register** `0` stores the last thing you have yanked (copied)
+- The **cut registers** `1-9` store the last 9 things you cut by using either the delete or the change command
+
+To copy to register: `"{register name}y{motion}`  
+To cut to register: `"{register name}d{motion}`  
+To paste from register `"{register name}p`  
+
 ## Inner/outer
 change the text inside quotes: `ci"`  
 change the text inside brackets: `ci)`  
