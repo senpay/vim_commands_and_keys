@@ -5,6 +5,7 @@ Exit and save: `:wq!`
 Go to normal mode: `ESC` or `CTRL+C`
 Repeat last change: `.`  
 Open file: `:open {filename}`  
+Execute terminal command: `:!command`  
 
 # Insert mode
 Go to insert mode: `i`  
