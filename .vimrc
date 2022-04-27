@@ -45,7 +45,7 @@ let b:python_version_2 = 0
 "duplicate line
 nnoremap <C-d> Yp
 "show autocomplete options
-imap <c-space> <Plug>(asyncomplete_force_refresh)
+imap <C-space> <Plug>(asyncomplete_force_refresh)
 
 "format code everytime I save file
 autocmd FileType python map <buffer> <C-l> :w<CR>:exec '!python -m black ' shellescape(@%, 1)<CR>
