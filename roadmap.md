@@ -556,7 +556,7 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>shift+f9</td>
             <td>ctrl+d</td>
             <td>Debug</td>
-            <td>?</td>
+            <td>❌ (no current Debug support)</td>
         </tr>
         <tr>
             <td>ctrl+shift+f10</td>
