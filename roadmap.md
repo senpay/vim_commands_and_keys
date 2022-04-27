@@ -309,58 +309,28 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>?</td>
         </tr>
         <tr>
-            <td>ctrl+numpad_subtract</td>
-            <td>ctrl+numpad_subtract</td>
-            <td>Collapse code block</td>
-            <td>?</td>
-        </tr>
-        <tr>
             <td>ctrl+alt+=</td>
             <td>ctrl+alt+=</td>
             <td>Expand code block recursively</td>
-            <td>?</td>
-        </tr>
-        <tr>
-            <td>ctrl+alt+numpad_add</td>
-            <td>ctrl+alt+numpad_add</td>
-            <td>Expand code block recursively</td>
-            <td>?</td>
+            <td>❌</td>
         </tr>
         <tr>
             <td>ctrl+alt+-</td>
             <td>ctrl+alt+-</td>
             <td>Collapse code block recursively</td>
-            <td>?</td>
+            <td>❌</td>
         </tr>
         <tr>
-            <td>ctrl+alt+numpad_subtract</td>
-            <td>ctrl+alt+numpad_subtract</td>
-            <td>Collapse code block recursively</td>
-            <td>?</td>
-        </tr>
-        <tr>
-            <td>ctrl+shift+=</td>
-            <td>ctrl+shift+=</td>
+            <td>zR</td>
+            <td>zR</td>
             <td>Expand all</td>
-            <td>?</td>
+            <td>✅</td>
         </tr>
         <tr>
-            <td>ctrl+shift+numpad_add</td>
-            <td>ctrl+shift+numpad_add</td>
-            <td>Expand all</td>
-            <td>?</td>
-        </tr>
-        <tr>
-            <td>ctrl+shift+-</td>
-            <td>ctrl+shift+-</td>
+            <td>zM</td>
+            <td>zM</td>
             <td>Collapse all</td>
-            <td>?</td>
-        </tr>
-        <tr>
-            <td>ctrl+shift+numpad_subtract</td>
-            <td>ctrl+shift+numpad_subtract</td>
-            <td>Collapse all</td>
-            <td>?</td>
+            <td>✅</td>
         </tr>
         <tr>
             <td>ctrl+f4</td>
@@ -384,19 +354,19 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>shift+alt+down</td>
             <td>shift+alt+down</td>
             <td>Move Line Down</td>
-            <td>?</td>
+            <td>❌</td>
         </tr>
         <tr>
             <td>shift+alt+up</td>
             <td>shift+alt+up</td>
             <td>Move Line Up</td>
-            <td>?</td>
+            <td>❌</td>
         </tr>
         <tr>
-            <td>shift+alt+insert</td>
-            <td>shift+ctrl+8</td>
+            <td>ctrl-v</td>
+            <td>ctrl-v</td>
             <td>Column Selection Mode</td>
-            <td>?</td>
+            <td>✅ (Vim visual mode block selection)</td>
         </tr>
     </tbody>
 </table>
