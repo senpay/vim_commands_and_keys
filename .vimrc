@@ -120,3 +120,6 @@ set encoding=utf-8
 "Start NERDTree automatically and move cursor to editor window
 autocmd VimEnter * NERDTree
 autocmd VimEnter * wincmd p
+
+"Configure normal backspace behaviour
+set backspace=indent,eol,start
