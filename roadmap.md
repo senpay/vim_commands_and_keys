@@ -388,22 +388,22 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>?</td>
         </tr>
         <tr>
-            <td>ctrl+f</td>
-            <td>ctrl+f</td>
+            <td>/{pattern}</td>
+            <td>/{pattern}</td>
             <td>Find</td>
-            <td>?</td>
+            <td>✅</td>
         </tr>
         <tr>
-            <td>f3</td>
-            <td>ctrl+g</td>
+            <td>n</td>
+            <td>n</td>
             <td>Find next</td>
-            <td>?</td>
+            <td>✅</td>
         </tr>
         <tr>
-            <td>shift+f3</td>
-            <td>ctrl+shift+g</td>
+            <td>N</td>
+            <td>N</td>
             <td>Find previous</td>
-            <td>?</td>
+            <td>✅</td>
         </tr>
         <tr>
             <td>ctrl+r</td>
@@ -653,25 +653,13 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>alt+left</td>
             <td>ctrl+left</td>
             <td>Go to previous editor tab</td>
-            <td>?</td>
-        </tr>
-        <tr>
-            <td>N/A</td>
-            <td>shift+ctrl+[</td>
-            <td>Go to previous editor tab</td>
-            <td>?</td>
+            <td>❌</td>
         </tr>
         <tr>
             <td>alt+right</td>
             <td>ctrl+right</td>
             <td>Go to next editor tab</td>
-            <td>?</td>
-        </tr>
-        <tr>
-            <td>N/A</td>
-            <td>shift+ctrl+]</td>
-            <td>Go to next editor tab</td>
-            <td>?</td>
+            <td>❌</td>
         </tr>
         <tr>
             <td>f12</td>
@@ -689,31 +677,31 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>shift+escape</td>
             <td>shift+escape</td>
             <td>Hide active or last active window (Sidebar)</td>
-            <td>?</td>
+            <td>❌</td>
         </tr>
         <tr>
             <td>shift+escape</td>
             <td>shift+escape</td>
             <td>Hide active or last active window (Output)</td>
-            <td>?</td>
+            <td>❌</td>
         </tr>
         <tr>
             <td>shift+escape</td>
             <td>shift+escape</td>
             <td>Hide active or last active window (Problems)</td>
-            <td>?</td>
+            <td>❌</td>
         </tr>
         <tr>
             <td>shift+escape</td>
             <td>shift+escape</td>
             <td>Hide active or last active window (Debug Console)</td>
-            <td>?</td>
+            <td>❌</td>
         </tr>
         <tr>
             <td>shift+escape</td>
             <td>shift+escape</td>
             <td>Hide active or last active window (Terminal)</td>
-            <td>?</td>
+            <td>❌ (no Terminal support yet)</td>
         </tr>
         <tr>
             <td>shift+escape</td>
@@ -728,46 +716,34 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>N/A</td>
         </tr>
         <tr>
-            <td>ctrl+g</td>
-            <td>ctrl+l</td>
+            <td>{linenumber}gg</td>
+            <td>{linenumber}gg</td>
             <td>Go to line</td>
-            <td>?</td>
+            <td>✅</td>
         </tr>
         <tr>
             <td>ctrl+e</td>
             <td>ctrl+e</td>
             <td>Recent files popup</td>
-            <td>?</td>
+            <td>❌</td>
         </tr>
         <tr>
             <td>ctrl+alt+left</td>
             <td>ctrl+alt+left</td>
             <td>Navigate back</td>
-            <td>?</td>
-        </tr>
-        <tr>
-            <td>N/A</td>
-            <td>ctrl+[</td>
-            <td>Navigate back</td>
-            <td>?</td>
+            <td>❌</td>
         </tr>
         <tr>
             <td>ctrl+alt+right</td>
             <td>ctrl+alt+right</td>
             <td>Navigate forward</td>
-            <td>?</td>
-        </tr>
-        <tr>
-            <td>N/A</td>
-            <td>ctrl+]</td>
-            <td>Navigate forward</td>
-            <td>?</td>
+            <td>❌</td>
         </tr>
         <tr>
             <td>ctrl+shift+backspace</td>
             <td>ctrl+shift+backspace</td>
             <td>Navigate to last edit location</td>
-            <td>?</td>
+            <td>❌</td>
         </tr>
         <tr>
             <td>alt+f1</td>
@@ -839,13 +815,13 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>alt+7</td>
             <td>ctrl+7</td>
             <td>Structure</td>
-            <td>?</td>
+            <td>❌</td>
         </tr>
         <tr>
             <td>ctrl+f12</td>
             <td>ctrl+f12</td>
             <td>File structure popup</td>
-            <td>?</td>
+            <td>❌</td>
         </tr>
         <tr>
             <td>ctrl+h</td>
@@ -869,37 +845,37 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>f2</td>
             <td>f2</td>
             <td>Next highlighted error</td>
-            <td>?</td>
+            <td>❌</td>
         </tr>
         <tr>
             <td>shift+f2</td>
             <td>shift+f2</td>
             <td>Previous highlighted error</td>
-            <td>?</td>
+            <td>❌</td>
         </tr>
         <tr>
             <td>f4</td>
             <td>f4</td>
             <td>Edit source</td>
-            <td>?</td>
+            <td>❌</td>
         </tr>
         <tr>
             <td>ctrl+enter</td>
             <td>ctrl+down</td>
             <td>View source</td>
-            <td>?</td>
+            <td>❌</td>
         </tr>
         <tr>
             <td>shift+ctrl+down</td>
             <td>shift+alt+down</td>
             <td>Move Statement Down</td>
-            <td>?</td>
+            <td>❌</td>
         </tr>
         <tr>
             <td>shift+ctrl+up</td>
             <td>shift+alt+up</td>
             <td>Move Statement Up</td>
-            <td>?</td>
+            <td>❌</td>
         </tr>
         <tr>
             <td>alt+home</td>
@@ -935,25 +911,25 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>ctrl+alt+shift+down</td>
             <td>ctrl+alt+shift+down</td>
             <td>Next Change</td>
-            <td>?</td>
+            <td>❌</td>
         </tr>
         <tr>
             <td>ctrl+alt+shift+up</td>
             <td>ctrl+alt+shift+up</td>
             <td>Previous Change</td>
-            <td>?</td>
+            <td>❌</td>
         </tr>
         <tr>
-            <td>ctrl+home</td>
-            <td>ctrl+home</td>
+            <td>gg</td>
+            <td>gg</td>
             <td>Move Caret to Text Start</td>
-            <td>?</td>
+            <td>✅</td>
         </tr>
         <tr>
-            <td>ctrl+end</td>
-            <td>ctrl+end</td>
+            <td>G</td>
+            <td>G</td>
             <td>Move Caret to Text End</td>
-            <td>?</td>
+            <td>✅</td>
         </tr>
         <tr>
             <td>ctrl+shift+t</td>
