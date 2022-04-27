@@ -12,10 +12,10 @@ In case there're conflicting shortcuts - resolve them using the order from the l
 *Another bit: For now I have single .vimrc both for Windows and Linux. It can change.*
 
 A little bit of legend:
-  - ❌✅ - supported in windows but not linux
-  - ✅❌ - supported in linux but not windows
+  - ❎✅ - supported in windows but not linux
+  - ✅❎ - supported in linux but not windows
   - ✅ - supported both in linux and windows
-  - ❌ - not supported in Vim, but supported in VSCode/Intellij (both in linux and windows)
+  - ❎ - not supported in Vim, but supported in VSCode/Intellij (both in linux and windows)
   - N/A - is not supported in the original plugin
   - ? - not configured/tested yet
 
@@ -37,7 +37,7 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>ctrl+space</td>
             <td>ctrl+space</td>
             <td>Basic code completion (the name of any class, method or variable)</td>
-            <td>❌✅ (no idea why it doesn't work in Linux/WSL)</td>
+            <td>❎✅ (no idea why it doesn't work in Linux/WSL)</td>
         </tr>
         <tr>
             <td>ctrl+shift+space</td>
@@ -55,25 +55,25 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>tab</td>
             <td>tab</td>
             <td>Choose Lookup Item Replace</td>
-            <td>❌</td>
+            <td>❎</td>
         </tr>
         <tr>
             <td>ctrl+shift+enter</td>
             <td>ctrl+shift+enter</td>
             <td>Complete statement</td>
-            <td>❌</td>
+            <td>❎</td>
         </tr>
         <tr>
             <td>ctrl+p</td>
             <td>ctrl+p</td>
             <td>Parameter info (within method call arguments)</td>
-            <td>❌</td>
+            <td>❎</td>
         </tr>
         <tr>
             <td>ctrl+q</td>
             <td>ctrl+j</td>
             <td>Quick documentation lookup</td>
-            <td>❌</td>
+            <td>❎</td>
         </tr>
         <tr>
             <td>ctrl+f1</td>
@@ -91,31 +91,31 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>ctrl+f1</td>
             <td>ctrl+f1</td>
             <td>Show descriptions of error or warning at caret</td>
-            <td>❌</td>
+            <td>❎</td>
         </tr>
         <tr>
             <td>alt+insert</td>
             <td>ctrl+n</td>
             <td>Generate code... (Getters, Setters, Constructors, hashCode/equals, toString)</td>
-            <td>❌ (no current support, maybe in the future)</td>
+            <td>❎ (no current support, maybe in the future)</td>
         </tr>
         <tr>
             <td>alt+insert</td>
             <td>ctrl+n</td>
             <td>New...</td>
-            <td>❌ (Use normal vim editing instead)</td>
+            <td>❎ (Use normal vim editing instead)</td>
         </tr>
         <tr>
             <td>ctrl+o</td>
             <td>ctrl+o</td>
             <td>Override methods</td>
-            <td>❌</td>
+            <td>❎</td>
         </tr>
         <tr>
             <td>ctrl+i</td>
             <td>ctrl+i</td>
             <td>Implement methods</td>
-            <td>❌</td>
+            <td>❎</td>
         </tr>
         <tr>
             <td>ctrl+alt+t</td>
@@ -127,25 +127,25 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>ctrl+/</td>
             <td>ctrl+/</td>
             <td>Comment/uncomment with line comment</td>
-            <td>❌ (Use visual mode block selection instead)</td>
+            <td>❎ (Use visual mode block selection instead)</td>
         </tr>
         <tr>
             <td>ctrl+shift+/</td>
             <td>ctrl+alt+/</td>
             <td>Comment/uncomment with block comment</td>
-            <td>❌</td>
+            <td>❎</td>
         </tr>
         <tr>
             <td>ctrl+w</td>
             <td>alt+up</td>
             <td>Select successively increasing code blocks</td>
-            <td>❌</td>
+            <td>❎</td>
         </tr>
         <tr>
             <td>ctrl+shift+w</td>
             <td>alt+down</td>
             <td>Decrease current selection to previous state</td>
-            <td>❌</td>
+            <td>❎</td>
         </tr>
         <tr>
             <td>alt+q</td>
@@ -199,7 +199,7 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>ctrl+alt+o</td>
             <td>ctrl+alt+o</td>
             <td>Optimize imports</td>
-            <td>❌</td>
+            <td>❎</td>
         </tr>
         <tr>
             <td>ctrl+alt+i</td>
@@ -277,13 +277,13 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>ctrl+shift+j</td>
             <td>ctrl+shift+j</td>
             <td>Smart line join</td>
-            <td>❌</td>
+            <td>❎</td>
         </tr>
         <tr>
             <td>ctrl+enter</td>
             <td>ctrl+enter</td>
             <td>Smart line split</td>
-            <td>❌</td>
+            <td>❎</td>
         </tr>
         <tr>
             <td>o</td>
@@ -337,13 +337,13 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>ctrl+alt+=</td>
             <td>ctrl+alt+=</td>
             <td>Expand code block recursively</td>
-            <td>❌</td>
+            <td>❎</td>
         </tr>
         <tr>
             <td>ctrl+alt+-</td>
             <td>ctrl+alt+-</td>
             <td>Collapse code block recursively</td>
-            <td>❌</td>
+            <td>❎</td>
         </tr>
         <tr>
             <td>zR</td>
@@ -373,19 +373,19 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>alt+shift+j</td>
             <td>ctrl+shift+g</td>
             <td>Unselect Occurrence</td>
-            <td>❌</td>
+            <td>❎</td>
         </tr>
         <tr>
             <td>shift+alt+down</td>
             <td>shift+alt+down</td>
             <td>Move Line Down</td>
-            <td>❌</td>
+            <td>❎</td>
         </tr>
         <tr>
             <td>shift+alt+up</td>
             <td>shift+alt+up</td>
             <td>Move Line Up</td>
-            <td>❌</td>
+            <td>❎</td>
         </tr>
         <tr>
             <td>ctrl-v</td>
@@ -446,13 +446,13 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>ctrl+shift+f</td>
             <td>ctrl+shift+f</td>
             <td>Find in path</td>
-            <td>❌</td>
+            <td>❎</td>
         </tr>
         <tr>
             <td>ctrl+shift+r</td>
             <td>ctrl+shift+r</td>
             <td>Replace in path</td>
-            <td>❌</td>
+            <td>❎</td>
         </tr>
         <tr>
             <td>ctrl+shift+s</td>
@@ -489,7 +489,7 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>alt+ctrl+f7</td>
             <td>alt+ctrl+f7</td>
             <td>Show usages</td>
-            <td>❌</td>
+            <td>❎</td>
         </tr>
         <tr>
             <td>ctrl+f7</td>
@@ -526,7 +526,7 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>ctrl+f9</td>
             <td>ctrl+f9</td>
             <td>Make project (compile modified and dependent)</td>
-            <td>❌ (use command line instead)</td>
+            <td>❎ (use command line instead)</td>
         </tr>
         <tr>
             <td>ctrl+shift+f9</td>
@@ -538,25 +538,25 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>alt+shift+f10</td>
             <td>ctrl+alt+r</td>
             <td>Select configuration and run</td>
-            <td>❌ (use command line instead)</td>
+            <td>❎ (use command line instead)</td>
         </tr>
         <tr>
             <td>alt+shift+f9</td>
             <td>ctrl+alt+d</td>
             <td>Select configuration and debug</td>
-            <td>❌ (use command line instead)</td>
+            <td>❎ (use command line instead)</td>
         </tr>
         <tr>
             <td>shift+f10</td>
             <td>ctrl+r</td>
             <td>Run</td>
-            <td>❌ (use command line instead)</td>
+            <td>❎ (use command line instead)</td>
         </tr>
         <tr>
             <td>shift+f9</td>
             <td>ctrl+d</td>
             <td>Debug</td>
-            <td>❌ (no current Debug support)</td>
+            <td>❎ (no current Debug support)</td>
         </tr>
         <tr>
             <td>ctrl+shift+f10</td>
@@ -587,19 +587,19 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>ctrl+f2</td>
             <td>ctrl+f2</td>
             <td>Stop</td>
-            <td>❌ (no current Debug support)</td>
+            <td>❎ (no current Debug support)</td>
         </tr>
         <tr>
             <td>f8</td>
             <td>f8</td>
             <td>Step over</td>
-            <td>❌ (no current Debug support)</td>
+            <td>❎ (no current Debug support)</td>
         </tr>
         <tr>
             <td>f7</td>
             <td>f7</td>
             <td>Step into</td>
-            <td>❌ (no current Debug support)</td>
+            <td>❎ (no current Debug support)</td>
         </tr>
         <tr>
             <td>shift+f7</td>
@@ -611,43 +611,43 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>shift+f8</td>
             <td>shift+f8</td>
             <td>Step out</td>
-            <td>❌ (no current Debug support)</td>
+            <td>❎ (no current Debug support)</td>
         </tr>
         <tr>
             <td>alt+f9</td>
             <td>alt+f9</td>
             <td>Run to cursor</td>
-            <td>❌ (no current Debug support)</td>
+            <td>❎ (no current Debug support)</td>
         </tr>
         <tr>
             <td>alt+f8</td>
             <td>alt+f8</td>
             <td>Evaluate expression</td>
-            <td>❌ (no current Debug support)</td>
+            <td>❎ (no current Debug support)</td>
         </tr>
         <tr>
             <td>alt+f8</td>
             <td>alt+f8</td>
             <td>Evaluate expression (selection)</td>
-            <td>❌ (no current Debug support)</td>
+            <td>❎ (no current Debug support)</td>
         </tr>
         <tr>
             <td>f9</td>
             <td>ctrl+alt+r</td>
             <td>Resume program</td>
-            <td>❌ (no current Debug support)</td>
+            <td>❎ (no current Debug support)</td>
         </tr>
         <tr>
             <td>ctrl+f8</td>
             <td>ctrl+f8</td>
             <td>Toggle breakpoint</td>
-            <td>❌ (no current Debug support)?</td>
+            <td>❎ (no current Debug support)?</td>
         </tr>
         <tr>
             <td>ctrl+shift+f8</td>
             <td>ctrl+shift+f8</td>
             <td>View breakpoints</td>
-            <td>❌ (no current Debug support)</td>
+            <td>❎ (no current Debug support)</td>
         </tr>
     </tbody>
 </table>
@@ -684,13 +684,13 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>alt+left</td>
             <td>ctrl+left</td>
             <td>Go to previous editor tab</td>
-            <td>❌</td>
+            <td>❎</td>
         </tr>
         <tr>
             <td>alt+right</td>
             <td>ctrl+right</td>
             <td>Go to next editor tab</td>
-            <td>❌</td>
+            <td>❎</td>
         </tr>
         <tr>
             <td>f12</td>
@@ -708,31 +708,31 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>shift+escape</td>
             <td>shift+escape</td>
             <td>Hide active or last active window (Sidebar)</td>
-            <td>❌</td>
+            <td>❎</td>
         </tr>
         <tr>
             <td>shift+escape</td>
             <td>shift+escape</td>
             <td>Hide active or last active window (Output)</td>
-            <td>❌</td>
+            <td>❎</td>
         </tr>
         <tr>
             <td>shift+escape</td>
             <td>shift+escape</td>
             <td>Hide active or last active window (Problems)</td>
-            <td>❌</td>
+            <td>❎</td>
         </tr>
         <tr>
             <td>shift+escape</td>
             <td>shift+escape</td>
             <td>Hide active or last active window (Debug Console)</td>
-            <td>❌</td>
+            <td>❎</td>
         </tr>
         <tr>
             <td>shift+escape</td>
             <td>shift+escape</td>
             <td>Hide active or last active window (Terminal)</td>
-            <td>❌ (no Terminal support yet)</td>
+            <td>❎ (no Terminal support yet)</td>
         </tr>
         <tr>
             <td>shift+escape</td>
@@ -756,25 +756,25 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>ctrl+e</td>
             <td>ctrl+e</td>
             <td>Recent files popup</td>
-            <td>❌</td>
+            <td>❎</td>
         </tr>
         <tr>
             <td>ctrl+alt+left</td>
             <td>ctrl+alt+left</td>
             <td>Navigate back</td>
-            <td>❌</td>
+            <td>❎</td>
         </tr>
         <tr>
             <td>ctrl+alt+right</td>
             <td>ctrl+alt+right</td>
             <td>Navigate forward</td>
-            <td>❌</td>
+            <td>❎</td>
         </tr>
         <tr>
             <td>ctrl+shift+backspace</td>
             <td>ctrl+shift+backspace</td>
             <td>Navigate to last edit location</td>
-            <td>❌</td>
+            <td>❎</td>
         </tr>
         <tr>
             <td>alt+f1</td>
@@ -846,13 +846,13 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>alt+7</td>
             <td>ctrl+7</td>
             <td>Structure</td>
-            <td>❌</td>
+            <td>❎</td>
         </tr>
         <tr>
             <td>ctrl+f12</td>
             <td>ctrl+f12</td>
             <td>File structure popup</td>
-            <td>❌</td>
+            <td>❎</td>
         </tr>
         <tr>
             <td>ctrl+h</td>
@@ -882,31 +882,31 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>shift+f2</td>
             <td>shift+f2</td>
             <td>Previous highlighted error</td>
-            <td>❌</td>
+            <td>❎</td>
         </tr>
         <tr>
             <td>f4</td>
             <td>f4</td>
             <td>Edit source</td>
-            <td>❌</td>
+            <td>❎</td>
         </tr>
         <tr>
             <td>ctrl+enter</td>
             <td>ctrl+down</td>
             <td>View source</td>
-            <td>❌</td>
+            <td>❎</td>
         </tr>
         <tr>
             <td>shift+ctrl+down</td>
             <td>shift+alt+down</td>
             <td>Move Statement Down</td>
-            <td>❌</td>
+            <td>❎</td>
         </tr>
         <tr>
             <td>shift+ctrl+up</td>
             <td>shift+alt+up</td>
             <td>Move Statement Up</td>
-            <td>❌</td>
+            <td>❎</td>
         </tr>
         <tr>
             <td>alt+home</td>
@@ -942,13 +942,13 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>ctrl+alt+shift+down</td>
             <td>ctrl+alt+shift+down</td>
             <td>Next Change</td>
-            <td>❌</td>
+            <td>❎</td>
         </tr>
         <tr>
             <td>ctrl+alt+shift+up</td>
             <td>ctrl+alt+shift+up</td>
             <td>Previous Change</td>
-            <td>❌</td>
+            <td>❎</td>
         </tr>
         <tr>
             <td>gg</td>
@@ -966,7 +966,7 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>ctrl+shift+t</td>
             <td>ctrl+shift+t</td>
             <td>Go to Test</td>
-            <td>❌</td>
+            <td>❎</td>
         </tr>
     </tbody>
 </table>
@@ -991,13 +991,13 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>ctrl+alt+shift+t</td>
             <td>ctrl+t</td>
             <td>Refactor This...</td>
-            <td>❌ (unfortunately)</td>
+            <td>❎ (unfortunately)</td>
         </tr>
         <tr>
             <td>f6</td>
             <td>f6</td>
             <td>Move</td>
-            <td>❌ (unfortunately)</td>
+            <td>❎ (unfortunately)</td>
         </tr>
         <tr>
             <td>alt+delete</td>
@@ -1015,13 +1015,13 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>shift+f6</td>
             <td>shift+f6</td>
             <td>Select All Occurrences</td>
-            <td>❌ (for Vim use gd)</td>
+            <td>❎ (for Vim use gd)</td>
         </tr>
         <tr>
             <td>shift+f6</td>
             <td>shift+f6</td>
             <td>Rename (File)</td>
-            <td>❌</td>
+            <td>❎</td>
         </tr>
         <tr>
             <td>ctrl+f6</td>
@@ -1039,25 +1039,25 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>ctrl+alt+m</td>
             <td>ctrl+alt+m</td>
             <td>Extract Method</td>
-            <td>❌ (unfortunately)</td>
+            <td>❎ (unfortunately)</td>
         </tr>
         <tr>
             <td>ctrl+alt+v</td>
             <td>ctrl+alt+v</td>
             <td>Extract Variable</td>
-            <td>❌ (unfortunately)</td>
+            <td>❎ (unfortunately)</td>
         </tr>
         <tr>
             <td>ctrl+alt+f</td>
             <td>ctrl+alt+f</td>
             <td>Extract Field</td>
-            <td>❌ (unfortunately)</td>
+            <td>❎ (unfortunately)</td>
         </tr>
         <tr>
             <td>ctrl+alt+c</td>
             <td>ctrl+alt+c</td>
             <td>Extract Constant</td>
-            <td>❌ (unfortunately)</td>
+            <td>❎ (unfortunately)</td>
         </tr>
         <tr>
             <td>ctrl+alt+p</td>
@@ -1082,25 +1082,25 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>ctrl+alt+k</td>
             <td>ctrl+k</td>
             <td>Commit project to VCS</td>
-            <td>❌ (no current VCS support)</td>
+            <td>❎ (no current VCS support)</td>
         </tr>
         <tr>
             <td>ctrl+shift+k</td>
             <td>ctrl+alt+k</td>
             <td>Push commits to VCS</td>
-            <td>❌ (no current VCS support)</td>
+            <td>❎ (no current VCS support)</td>
         </tr>
         <tr>
             <td>ctrl+t</td>
             <td>ctrl+t</td>
             <td>Update project from VCS</td>
-            <td>❌ (no current VCS support)</td>
+            <td>❎ (no current VCS support)</td>
         </tr>
         <tr>
             <td>ctrl+alt+z</td>
             <td>ctrl+alt+z</td>
             <td>Rollback Lines</td>
-            <td>❌ (no current VCS support)</td>
+            <td>❎ (no current VCS support)</td>
         </tr>
         <tr>
             <td>alt+shift+c</td>
@@ -1150,13 +1150,13 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>alt+0</td>
             <td>ctrl+0</td>
             <td>Activate Messages window (Problems)</td>
-            <td>❌</td>
+            <td>❎</td>
         </tr>
         <tr>
             <td>alt+numpad0</td>
             <td>ctrl+numpad0</td>
             <td>Activate Messages window (Problems)</td>
-            <td>❌</td>
+            <td>❎</td>
         </tr>
         <tr>
             <td>:NERDTree</td>
@@ -1174,73 +1174,73 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>alt+3</td>
             <td>ctrl+3</td>
             <td>Open corresponding tool window (Search)</td>
-            <td>❌ (no current Search window support)</td>
+            <td>❎ (no current Search window support)</td>
         </tr>
         <tr>
             <td>alt+numpad3</td>
             <td>ctrl+numpad3</td>
             <td>Open corresponding tool window (Search)</td>
-            <td>❌ (no current Search window support)</td>
+            <td>❎ (no current Search window support)</td>
         </tr>
         <tr>
             <td>alt+3</td>
             <td>ctrl+3</td>
             <td>Close corresponding tool window (Search)</td>
-            <td>❌ (no current Search window support)</td>
+            <td>❎ (no current Search window support)</td>
         </tr>
         <tr>
             <td>alt+numpad3</td>
             <td>ctrl+numpad3</td>
             <td>Close corresponding tool window (Search)</td>
-            <td>❌ (no current Search window support)</td>
+            <td>❎ (no current Search window support)</td>
         </tr>
         <tr>
             <td>alt+5</td>
             <td>ctrl+5</td>
             <td>Open corresponding tool window (Debug)</td>
-            <td>❌ (no current Debug window support)</td>
+            <td>❎ (no current Debug window support)</td>
         </tr>
         <tr>
             <td>alt+numpad5</td>
             <td>ctrl+numpad5</td>
             <td>Open corresponding tool window (Debug)</td>
-            <td>❌ (no current Debug window support)</td>
+            <td>❎ (no current Debug window support)</td>
         </tr>
         <tr>
             <td>alt+5</td>
             <td>ctrl+5</td>
             <td>Close corresponding tool window (Debug)</td>
-            <td>❌ (no current Debug window support)</td>
+            <td>❎ (no current Debug window support)</td>
         </tr>
         <tr>
             <td>alt+numpad5</td>
             <td>ctrl+numpad5</td>
             <td>Close corresponding tool window (Debug)</td>
-            <td>❌ (no current Debug window support)</td>
+            <td>❎ (no current Debug window support)</td>
         </tr>
         <tr>
             <td>alt+9</td>
             <td>ctrl+9</td>
             <td>Open corresponding tool window (Git)</td>
-            <td>❌ (no current git support)</td>
+            <td>❎ (no current git support)</td>
         </tr>
         <tr>
             <td>alt+numpad9</td>
             <td>ctrl+numpad9</td>
             <td>Open corresponding tool window (Git)</td>
-            <td>❌ (no current git support)</td>
+            <td>❎ (no current git support)</td>
         </tr>
         <tr>
             <td>alt+9</td>
             <td>ctrl+9</td>
             <td>Close corresponding tool window (Git)</td>
-            <td>❌ (no current git support)</td>
+            <td>❎ (no current git support)</td>
         </tr>
         <tr>
             <td>alt+numpad9</td>
             <td>ctrl+numpad9</td>
             <td>Close corresponding tool window (Git)</td>
-            <td>❌ (no current git support)</td>
+            <td>❎ (no current git support)</td>
         </tr>
         <tr>
             <td>:wa</td>
@@ -1258,13 +1258,13 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>ctrl+alt+f</td>
             <td>ctrl+ctrl+f</td>
             <td>Toggle full screen mode</td>
-            <td>❌</td>
+            <td>❎</td>
         </tr>
         <tr>
             <td>ctrl+shift+f12</td>
             <td>ctrl+shift+f12</td>
             <td>Toggle maximizing editor</td>
-            <td>❌</td>
+            <td>❎</td>
         </tr>
         <tr>
             <td>alt+shift+f</td>
@@ -1282,19 +1282,19 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>ctrl+`</td>
             <td>ctrl+`</td>
             <td>Quick switch current scheme</td>
-            <td>❌</td>
+            <td>❎</td>
         </tr>
         <tr>
             <td>ctrl+alt+s</td>
             <td>ctrl+numpad_separator</td>
             <td>Open Settings dialog</td>
-            <td>❌</td>
+            <td>❎</td>
         </tr>
         <tr>
             <td>ctrl+alt+shift+s</td>
             <td>ctrl+;</td>
             <td>Open Project Structure dialog</td>
-            <td>❌</td>
+            <td>❎</td>
         </tr>
         <tr>
             <td>ctrl+shift+a</td>
@@ -1312,13 +1312,13 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>ctrl+tab</td>
             <td>ctrl+tab</td>
             <td>Switch between tabs and tool window</td>
-            <td>❌</td>
+            <td>❎</td>
         </tr>
         <tr>
             <td>shift+f12</td>
             <td>shift+f12</td>
             <td>Restore Default layout</td>
-            <td>❌</td>
+            <td>❎</td>
         </tr>
     </tbody>
 </table>
@@ -1349,13 +1349,13 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>f7</td>
             <td>f7</td>
             <td>Next difference</td>
-            <td>❌</td>
+            <td>❎</td>
         </tr>
         <tr>
             <td>shift+f7</td>
             <td>shift+f7</td>
             <td>Previous difference</td>
-            <td>❌</td>
+            <td>❎</td>
         </tr>
         <tr>
             <td>O</td>
@@ -1373,43 +1373,43 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>alt+f12</td>
             <td>alt+f12</td>
             <td>Opens and focuses corresponding tool window (Terminal)</td>
-            <td>❌ (no current terminal support)</td>
+            <td>❎ (no current terminal support)</td>
         </tr>
         <tr>
             <td>alt+f12</td>
             <td>alt+f12</td>
             <td>Close corresponding tool window (Terminal)</td>
-            <td>❌ (no current terminal support)</td>
+            <td>❎ (no current terminal support)</td>
         </tr>
         <tr>
             <td>ctrl+shift+alt+j</td>
             <td>ctrl+ctrl+g</td>
             <td>Sublime Text style multiple selections</td>
-            <td>❌</td>
+            <td>❎</td>
         </tr>
         <tr>
             <td>alt+left</td>
             <td>shift+ctrl+[</td>
             <td>Select previous tab (Terminal)</td>
-            <td>❌ (no current terminal support)</td>
+            <td>❎ (no current terminal support)</td>
         </tr>
         <tr>
             <td>alt+right</td>
             <td>shift+ctrl+]</td>
             <td>Select next tab (Terminal)</td>
-            <td>❌ (no current terminal support)</td>
+            <td>❎ (no current terminal support)</td>
         </tr>
         <tr>
             <td>alt+tab</td>
             <td>alt+tab</td>
             <td>Goto next splitter</td>
-            <td>❌ (no current terminal support)</td>
+            <td>❎ (no current terminal support)</td>
         </tr>
         <tr>
             <td>shift+alt+tab</td>
             <td>shift+alt+tab</td>
             <td>Goto previous splitter</td>
-            <td>❌</td>
+            <td>❎</td>
         </tr>
         <tr>
             <td>enter</td>
@@ -1421,13 +1421,13 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>alt+home</td>
             <td>alt+home</td>
             <td>Jump to Navigation Bar</td>
-            <td>❌</td>
+            <td>❎</td>
         </tr>
         <tr>
             <td>shift+ctrl+c</td>
             <td>shift+ctrl+c</td>
             <td>Copy paths</td>
-            <td>❌</td>
+            <td>❎</td>
         </tr>
     </tbody>
 </table>
@@ -1446,7 +1446,7 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>shift+f10</td>
             <td>ctrl+r</td>
             <td>Go: Test Previous</td>
-            <td>❌</td>
+            <td>❎</td>
         </tr>
     </tbody>
 </table>
