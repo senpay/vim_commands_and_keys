@@ -50,13 +50,13 @@ A little bit of legend:
         </tr>
         <tr>
             <td>ctrl+shift+enter</td>
-            <td>cmd+shift+enter</td>
+            <td>ctrl+shift+enter</td>
             <td>Complete statement</td>
             <td>?</td>
         </tr>
         <tr>
             <td>ctrl+p</td>
-            <td>cmd+p</td>
+            <td>ctrl+p</td>
             <td>Parameter info (within method call arguments)</td>
             <td>?</td>
         </tr>
@@ -74,25 +74,25 @@ A little bit of legend:
         </tr>
         <tr>
             <td>ctrl+mouseover</td>
-            <td>cmd+mouseover</td>
+            <td>ctrl+mouseover</td>
             <td>Brief Info</td>
             <td>N/A</td>
         </tr>
         <tr>
             <td>ctrl+f1</td>
-            <td>cmd+f1</td>
+            <td>ctrl+f1</td>
             <td>Show descriptions of error or warning at caret</td>
             <td>?</td>
         </tr>
         <tr>
             <td>alt+insert</td>
-            <td>cmd+n</td>
+            <td>ctrl+n</td>
             <td>Generate code... (Getters, Setters, Constructors, hashCode/equals, toString)</td>
             <td>?</td>
         </tr>
         <tr>
             <td>alt+insert</td>
-            <td>cmd+n</td>
+            <td>ctrl+n</td>
             <td>New...</td>
             <td>?</td>
         </tr>
@@ -110,31 +110,31 @@ A little bit of legend:
         </tr>
         <tr>
             <td>ctrl+alt+t</td>
-            <td>cmd+alt+t</td>
+            <td>ctrl+alt+t</td>
             <td>Surround with... (if..else, try..catch, for, synchronized, etc.)</td>
             <td>N/A</td>
         </tr>
         <tr>
             <td>ctrl+/</td>
-            <td>cmd+/</td>
+            <td>ctrl+/</td>
             <td>Comment/uncomment with line comment</td>
             <td>?</td>
         </tr>
         <tr>
             <td>ctrl+numpad_divide</td>
-            <td>cmd+numpad_divide</td>
+            <td>ctrl+numpad_divide</td>
             <td>Comment/uncomment with line comment</td>
             <td>?</td>
         </tr>
         <tr>
             <td>ctrl+shift+/</td>
-            <td>cmd+alt+/</td>
+            <td>ctrl+alt+/</td>
             <td>Comment/uncomment with block comment</td>
             <td>?</td>
         </tr>
         <tr>
             <td>ctrl+shift+numpad_divide</td>
-            <td>cmd+alt+numpad_divide</td>
+            <td>ctrl+alt+numpad_divide</td>
             <td>Comment/uncomment with block comment</td>
             <td>?</td>
         </tr>
@@ -166,13 +166,13 @@ A little bit of legend:
             <td>==</td>
             <td>==</td>
             <td>Reformat code</td>
-            <td>❌✅</td>
+            <td>✅❌</td>
         </tr>
         <tr>
             <td>ctrl+alt+l</td>
-            <td>cmd+alt+l</td>
+            <td>ctrl+alt+l</td>
             <td>Reformat selected code</td>
-            <td>❌✅</td>
+            <td>?</td>
         </tr>
         <tr>
             <td>ctrl+alt+o</td>
@@ -199,50 +199,44 @@ A little bit of legend:
             <td>✅</td>
         </tr>
         <tr>
-            <td>ctrl+x</td>
-            <td>cmd+x</td>
+            <td>dd</td>
+            <td>dd</td>
             <td>Cut current line or selected block to clipboard</td>
-            <td>?</td>
+            <td>✅</td>
         </tr>
         <tr>
-            <td>shift+delete</td>
-            <td>cmd+delete</td>
-            <td>Cut current line or selected block to clipboard</td>
-            <td>?</td>
-        </tr>
-        <tr>
-            <td>ctrl+c</td>
-            <td>cmd+c</td>
+            <td>y</td>
+            <td>y</td>
             <td>Copy current line or selected block to clipboard</td>
-            <td>?</td>
+            <td>✅</td>
         </tr>
         <tr>
-            <td>ctrl+v</td>
-            <td>cmd+v</td>
+            <td>p</td>
+            <td>p</td>
             <td>Paste from clipboard</td>
-            <td>?</td>
+            <td>✅</td>
         </tr>
         <tr>
             <td>ctrl+shift+v</td>
-            <td>cmd+shift+v</td>
+            <td>ctrl+shift+v</td>
             <td>Paste from recent buffers...</td>
             <td>N/A</td>
         </tr>
         <tr>
             <td>ctrl+d</td>
-            <td>cmd+d</td>
+            <td>ctrl+d</td>
             <td>Duplicate Line</td>
-            <td>?</td>
+            <td>✅</td>
         </tr>
         <tr>
             <td>ctrl+d</td>
-            <td>cmd+d</td>
+            <td>ctrl+d</td>
             <td>Duplicate Selection</td>
             <td>?</td>
         </tr>
         <tr>
             <td>ctrl+y</td>
-            <td>cmd+backspace</td>
+            <td>ctrl+backspace</td>
             <td>Delete line at caret</td>
             <td>?</td>
         </tr>
@@ -254,7 +248,7 @@ A little bit of legend:
         </tr>
         <tr>
             <td>ctrl+enter</td>
-            <td>cmd+enter</td>
+            <td>ctrl+enter</td>
             <td>Smart line split</td>
             <td>?</td>
         </tr>
@@ -266,19 +260,19 @@ A little bit of legend:
         </tr>
         <tr>
             <td>ctrl+shift+u</td>
-            <td>cmd+shift+u</td>
+            <td>ctrl+shift+u</td>
             <td>Toggle case for word at caret or selected block</td>
             <td>N/A</td>
         </tr>
         <tr>
             <td>ctrl+shift+]</td>
-            <td>cmd+shift+]</td>
+            <td>ctrl+shift+]</td>
             <td>Select till code block end</td>
             <td>N/A</td>
         </tr>
         <tr>
             <td>ctrl+shift+[</td>
-            <td>cmd+shift+[</td>
+            <td>ctrl+shift+[</td>
             <td>Select till code block start</td>
             <td>N/A</td>
         </tr>
@@ -296,79 +290,79 @@ A little bit of legend:
         </tr>
         <tr>
             <td>ctrl+=</td>
-            <td>cmd+=</td>
+            <td>ctrl+=</td>
             <td>Expand code block</td>
             <td>?</td>
         </tr>
         <tr>
             <td>ctrl+numpad_add</td>
-            <td>cmd+numpad_add</td>
+            <td>ctrl+numpad_add</td>
             <td>Expand code block</td>
             <td>?</td>
         </tr>
         <tr>
             <td>ctrl+-</td>
-            <td>cmd+-</td>
+            <td>ctrl+-</td>
             <td>Collapse code block</td>
             <td>?</td>
         </tr>
         <tr>
             <td>ctrl+numpad_subtract</td>
-            <td>cmd+numpad_subtract</td>
+            <td>ctrl+numpad_subtract</td>
             <td>Collapse code block</td>
             <td>?</td>
         </tr>
         <tr>
             <td>ctrl+alt+=</td>
-            <td>cmd+alt+=</td>
+            <td>ctrl+alt+=</td>
             <td>Expand code block recursively</td>
             <td>?</td>
         </tr>
         <tr>
             <td>ctrl+alt+numpad_add</td>
-            <td>cmd+alt+numpad_add</td>
+            <td>ctrl+alt+numpad_add</td>
             <td>Expand code block recursively</td>
             <td>?</td>
         </tr>
         <tr>
             <td>ctrl+alt+-</td>
-            <td>cmd+alt+-</td>
+            <td>ctrl+alt+-</td>
             <td>Collapse code block recursively</td>
             <td>?</td>
         </tr>
         <tr>
             <td>ctrl+alt+numpad_subtract</td>
-            <td>cmd+alt+numpad_subtract</td>
+            <td>ctrl+alt+numpad_subtract</td>
             <td>Collapse code block recursively</td>
             <td>?</td>
         </tr>
         <tr>
             <td>ctrl+shift+=</td>
-            <td>cmd+shift+=</td>
+            <td>ctrl+shift+=</td>
             <td>Expand all</td>
             <td>?</td>
         </tr>
         <tr>
             <td>ctrl+shift+numpad_add</td>
-            <td>cmd+shift+numpad_add</td>
+            <td>ctrl+shift+numpad_add</td>
             <td>Expand all</td>
             <td>?</td>
         </tr>
         <tr>
             <td>ctrl+shift+-</td>
-            <td>cmd+shift+-</td>
+            <td>ctrl+shift+-</td>
             <td>Collapse all</td>
             <td>?</td>
         </tr>
         <tr>
             <td>ctrl+shift+numpad_subtract</td>
-            <td>cmd+shift+numpad_subtract</td>
+            <td>ctrl+shift+numpad_subtract</td>
             <td>Collapse all</td>
             <td>?</td>
         </tr>
         <tr>
             <td>ctrl+f4</td>
-            <td>cmd+w</td>
+            <td>ctrl+w</td>
             <td>Close active editor tab</td>
             <td>?</td>
         </tr>
@@ -398,7 +392,7 @@ A little bit of legend:
         </tr>
         <tr>
             <td>shift+alt+insert</td>
-            <td>shift+cmd+8</td>
+            <td>shift+ctrl+8</td>
             <td>Column Selection Mode</td>
             <td>?</td>
         </tr>
@@ -423,49 +417,49 @@ A little bit of legend:
         </tr>
         <tr>
             <td>ctrl+f</td>
-            <td>cmd+f</td>
+            <td>ctrl+f</td>
             <td>Find</td>
             <td>?</td>
         </tr>
         <tr>
             <td>f3</td>
-            <td>cmd+g</td>
+            <td>ctrl+g</td>
             <td>Find next</td>
             <td>?</td>
         </tr>
         <tr>
             <td>shift+f3</td>
-            <td>cmd+shift+g</td>
+            <td>ctrl+shift+g</td>
             <td>Find previous</td>
             <td>?</td>
         </tr>
         <tr>
             <td>ctrl+r</td>
-            <td>cmd+r</td>
+            <td>ctrl+r</td>
             <td>Replace</td>
             <td>?</td>
         </tr>
         <tr>
             <td>ctrl+shift+f</td>
-            <td>cmd+shift+f</td>
+            <td>ctrl+shift+f</td>
             <td>Find in path</td>
             <td>?</td>
         </tr>
         <tr>
             <td>ctrl+shift+r</td>
-            <td>cmd+shift+r</td>
+            <td>ctrl+shift+r</td>
             <td>Replace in path</td>
             <td>?</td>
         </tr>
         <tr>
             <td>ctrl+shift+s</td>
-            <td>cmd+shift+s</td>
+            <td>ctrl+shift+s</td>
             <td>Search structurally (Ultimate Edition only)</td>
             <td>N/A</td>
         </tr>
         <tr>
             <td>ctrl+shift+m</td>
-            <td>cmd+shift+m</td>
+            <td>ctrl+shift+m</td>
             <td>Replace structurally (Ultimate Edition only)</td>
             <td>N/A</td>
         </tr>
@@ -490,25 +484,25 @@ A little bit of legend:
         </tr>
         <tr>
             <td>alt+ctrl+f7</td>
-            <td>alt+cmd+f7</td>
+            <td>alt+ctrl+f7</td>
             <td>Show usages</td>
             <td>?</td>
         </tr>
         <tr>
             <td>ctrl+f7</td>
-            <td>cmd+f7</td>
+            <td>ctrl+f7</td>
             <td>Find usages in file</td>
             <td>N/A</td>
         </tr>
         <tr>
             <td>ctrl+shift+f7</td>
-            <td>cmd+shift+f7</td>
+            <td>ctrl+shift+f7</td>
             <td>Highlight usages in file</td>
             <td>N/A</td>
         </tr>
         <tr>
             <td>ctrl+alt+f7</td>
-            <td>cmd+alt+f7</td>
+            <td>ctrl+alt+f7</td>
             <td>Show usages</td>
             <td>N/A</td>
         </tr>
@@ -527,13 +521,13 @@ A little bit of legend:
     <tbody>
         <tr>
             <td>ctrl+f9</td>
-            <td>cmd+f9</td>
+            <td>ctrl+f9</td>
             <td>Make project (compile modifed and dependent)</td>
             <td>?</td>
         </tr>
         <tr>
             <td>ctrl+shift+f9</td>
-            <td>cmd+shift+f9</td>
+            <td>ctrl+shift+f9</td>
             <td>Compile selected file, package or module</td>
             <td>N/A</td>
         </tr>
@@ -588,7 +582,7 @@ A little bit of legend:
     <tbody>
         <tr>
             <td>ctrl+f2</td>
-            <td>cmd+f2</td>
+            <td>ctrl+f2</td>
             <td>Stop</td>
             <td>?</td>
         </tr>
@@ -636,19 +630,19 @@ A little bit of legend:
         </tr>
         <tr>
             <td>f9</td>
-            <td>cmd+alt+r</td>
+            <td>ctrl+alt+r</td>
             <td>Resume program</td>
             <td>?</td>
         </tr>
         <tr>
             <td>ctrl+f8</td>
-            <td>cmd+f8</td>
+            <td>ctrl+f8</td>
             <td>Toggle breakpoint</td>
             <td>?</td>
         </tr>
         <tr>
             <td>ctrl+shift+f8</td>
-            <td>cmd+shift+f8</td>
+            <td>ctrl+shift+f8</td>
             <td>View breakpoints</td>
             <td>?</td>
         </tr>
@@ -667,19 +661,19 @@ A little bit of legend:
     <tbody>
         <tr>
             <td>ctrl+n</td>
-            <td>cmd+o</td>
+            <td>ctrl+o</td>
             <td>Go to class</td>
             <td>?</td>
         </tr>
         <tr>
             <td>ctrl+shift+n</td>
-            <td>cmd+shift+o</td>
+            <td>ctrl+shift+o</td>
             <td>Go to file</td>
             <td>?</td>
         </tr>
         <tr>
             <td>ctrl+alt+shift+n</td>
-            <td>cmd+alt+o</td>
+            <td>ctrl+alt+o</td>
             <td>Go to symbol</td>
             <td>?</td>
         </tr>
@@ -691,7 +685,7 @@ A little bit of legend:
         </tr>
         <tr>
             <td>N/A</td>
-            <td>shift+cmd+[</td>
+            <td>shift+ctrl+[</td>
             <td>Go to previous editor tab</td>
             <td>?</td>
         </tr>
@@ -703,7 +697,7 @@ A little bit of legend:
         </tr>
         <tr>
             <td>N/A</td>
-            <td>shift+cmd+]</td>
+            <td>shift+ctrl+]</td>
             <td>Go to next editor tab</td>
             <td>?</td>
         </tr>
@@ -757,49 +751,49 @@ A little bit of legend:
         </tr>
         <tr>
             <td>ctrl+shift+f4</td>
-            <td>cmd+shift+f4</td>
+            <td>ctrl+shift+f4</td>
             <td>Close active run/messages/find/... tab</td>
             <td>N/A</td>
         </tr>
         <tr>
             <td>ctrl+g</td>
-            <td>cmd+l</td>
+            <td>ctrl+l</td>
             <td>Go to line</td>
             <td>?</td>
         </tr>
         <tr>
             <td>ctrl+e</td>
-            <td>cmd+e</td>
+            <td>ctrl+e</td>
             <td>Recent files popup</td>
             <td>?</td>
         </tr>
         <tr>
             <td>ctrl+alt+left</td>
-            <td>cmd+alt+left</td>
+            <td>ctrl+alt+left</td>
             <td>Navigate back</td>
             <td>?</td>
         </tr>
         <tr>
             <td>N/A</td>
-            <td>cmd+[</td>
+            <td>ctrl+[</td>
             <td>Navigate back</td>
             <td>?</td>
         </tr>
         <tr>
             <td>ctrl+alt+right</td>
-            <td>cmd+alt+right</td>
+            <td>ctrl+alt+right</td>
             <td>Navigate forward</td>
             <td>?</td>
         </tr>
         <tr>
             <td>N/A</td>
-            <td>cmd+]</td>
+            <td>ctrl+]</td>
             <td>Navigate forward</td>
             <td>?</td>
         </tr>
         <tr>
             <td>ctrl+shift+backspace</td>
-            <td>cmd+shift+backspace</td>
+            <td>ctrl+shift+backspace</td>
             <td>Navigate to last edit location</td>
             <td>?</td>
         </tr>
@@ -811,13 +805,13 @@ A little bit of legend:
         </tr>
         <tr>
             <td>ctrl+b</td>
-            <td>cmd+b</td>
+            <td>ctrl+b</td>
             <td>Go to declaration</td>
             <td>?</td>
         </tr>
         <tr>
             <td>ctrl+alt+b</td>
-            <td>cmd+alt+b</td>
+            <td>ctrl+alt+b</td>
             <td>Go to implementation(s)</td>
             <td>?</td>
         </tr>
@@ -829,7 +823,7 @@ A little bit of legend:
         </tr>
         <tr>
             <td>N/A</td>
-            <td>cmd+y</td>
+            <td>ctrl+y</td>
             <td>Open quick definition lookup</td>
             <td>?</td>
         </tr>
@@ -841,7 +835,7 @@ A little bit of legend:
         </tr>
         <tr>
             <td>ctrl+u</td>
-            <td>cmd+u</td>
+            <td>ctrl+u</td>
             <td>Go to super-method/super-class</td>
             <td>?</td>
         </tr>
@@ -859,25 +853,25 @@ A little bit of legend:
         </tr>
         <tr>
             <td>ctrl+]</td>
-            <td>cmd+]</td>
+            <td>ctrl+]</td>
             <td>Move to code block end</td>
             <td>N/A</td>
         </tr>
         <tr>
             <td>ctrl+[</td>
-            <td>cmd+[</td>
+            <td>ctrl+[</td>
             <td>Move to code block start</td>
             <td>N/A</td>
         </tr>
         <tr>
             <td>alt+7</td>
-            <td>cmd+7</td>
+            <td>ctrl+7</td>
             <td>Structure</td>
             <td>?</td>
         </tr>
         <tr>
             <td>ctrl+f12</td>
-            <td>cmd+f12</td>
+            <td>ctrl+f12</td>
             <td>File structure popup</td>
             <td>?</td>
         </tr>
@@ -889,7 +883,7 @@ A little bit of legend:
         </tr>
         <tr>
             <td>ctrl+shift+h</td>
-            <td>cmd+shift+h</td>
+            <td>ctrl+shift+h</td>
             <td>Method hierarchy</td>
             <td>N/A</td>
         </tr>
@@ -919,7 +913,7 @@ A little bit of legend:
         </tr>
         <tr>
             <td>ctrl+enter</td>
-            <td>cmd+down</td>
+            <td>ctrl+down</td>
             <td>View source</td>
             <td>?</td>
         </tr>
@@ -961,7 +955,7 @@ A little bit of legend:
         </tr>
         <tr>
             <td>shift+f11</td>
-            <td>cmd+f3</td>
+            <td>ctrl+f3</td>
             <td>Show bookmarks</td>
             <td>N/A</td>
         </tr>
@@ -979,19 +973,19 @@ A little bit of legend:
         </tr>
         <tr>
             <td>ctrl+home</td>
-            <td>cmd+home</td>
+            <td>ctrl+home</td>
             <td>Move Caret to Text Start</td>
             <td>?</td>
         </tr>
         <tr>
             <td>ctrl+end</td>
-            <td>cmd+end</td>
+            <td>ctrl+end</td>
             <td>Move Caret to Text End</td>
             <td>?</td>
         </tr>
         <tr>
             <td>ctrl+shift+t</td>
-            <td>cmd+shift+t</td>
+            <td>ctrl+shift+t</td>
             <td>Go to Test</td>
             <td>?</td>
         </tr>
@@ -1028,7 +1022,7 @@ A little bit of legend:
         </tr>
         <tr>
             <td>alt+delete</td>
-            <td>cmd+delete</td>
+            <td>ctrl+delete</td>
             <td>Safe Delete</td>
             <td>N/A</td>
         </tr>
@@ -1052,43 +1046,43 @@ A little bit of legend:
         </tr>
         <tr>
             <td>ctrl+f6</td>
-            <td>cmd+f6</td>
+            <td>ctrl+f6</td>
             <td>Change Signature</td>
             <td>N/A</td>
         </tr>
         <tr>
             <td>ctrl+alt+n</td>
-            <td>cmd+alt+n</td>
+            <td>ctrl+alt+n</td>
             <td>Inline</td>
             <td>N/A</td>
         </tr>
         <tr>
             <td>ctrl+alt+m</td>
-            <td>cmd+alt+m</td>
+            <td>ctrl+alt+m</td>
             <td>Extract Method</td>
             <td>?</td>
         </tr>
         <tr>
             <td>ctrl+alt+v</td>
-            <td>cmd+alt+v</td>
+            <td>ctrl+alt+v</td>
             <td>Extract Variable</td>
             <td>?</td>
         </tr>
         <tr>
             <td>ctrl+alt+f</td>
-            <td>cmd+alt+f</td>
+            <td>ctrl+alt+f</td>
             <td>Extract Field</td>
             <td>?</td>
         </tr>
         <tr>
             <td>ctrl+alt+c</td>
-            <td>cmd+alt+c</td>
+            <td>ctrl+alt+c</td>
             <td>Extract Constant</td>
             <td>?</td>
         </tr>
         <tr>
             <td>ctrl+alt+p</td>
-            <td>cmd+alt+p</td>
+            <td>ctrl+alt+p</td>
             <td>Extract Parameter</td>
             <td>N/A</td>
         </tr>
@@ -1107,25 +1101,25 @@ A little bit of legend:
     <tbody>
         <tr>
             <td>ctrl+alt+k</td>
-            <td>cmd+k</td>
+            <td>ctrl+k</td>
             <td>Commit project to VCS</td>
             <td>?</td>
         </tr>
         <tr>
             <td>ctrl+shift+k</td>
-            <td>cmd+alt+k</td>
+            <td>ctrl+alt+k</td>
             <td>Push commits to VCS</td>
             <td>?</td>
         </tr>
         <tr>
             <td>ctrl+t</td>
-            <td>cmd+t</td>
+            <td>ctrl+t</td>
             <td>Update project from VCS</td>
             <td>?</td>
         </tr>
         <tr>
             <td>ctrl+alt+z</td>
-            <td>cmd+alt+z</td>
+            <td>ctrl+alt+z</td>
             <td>Rollback Lines</td>
             <td>?</td>
         </tr>
@@ -1150,13 +1144,13 @@ A little bit of legend:
     <tbody>
         <tr>
             <td>ctrl+alt+j</td>
-            <td>cmd+alt+j</td>
+            <td>ctrl+alt+j</td>
             <td>Surround with Live Template</td>
             <td>N/A</td>
         </tr>
         <tr>
             <td>ctrl+j</td>
-            <td>cmd+j</td>
+            <td>ctrl+j</td>
             <td>Insert Live Template</td>
             <td>N/A</td>
         </tr>
@@ -1175,133 +1169,133 @@ A little bit of legend:
     <tbody>
         <tr>
             <td>alt+0</td>
-            <td>cmd+0</td>
+            <td>ctrl+0</td>
             <td>Activate Messages window (Problems)</td>
             <td>?</td>
         </tr>
         <tr>
             <td>alt+numpad0</td>
-            <td>cmd+numpad0</td>
+            <td>ctrl+numpad0</td>
             <td>Activate Messages window (Problems)</td>
             <td>?</td>
         </tr>
         <tr>
             <td>alt+1</td>
-            <td>cmd+1</td>
+            <td>ctrl+1</td>
             <td>Open corresponding tool window (Explorer)</td>
             <td>?</td>
         </tr>
         <tr>
             <td>alt+numpad1</td>
-            <td>cmd+numpad1</td>
+            <td>ctrl+numpad1</td>
             <td>Open corresponding tool window (Explorer)</td>
             <td>?</td>
         </tr>
         <tr>
             <td>alt+1</td>
-            <td>cmd+1</td>
+            <td>ctrl+1</td>
             <td>Close corresponding tool window (Explorer)</td>
             <td>?</td>
         </tr>
         <tr>
             <td>alt+numpad1</td>
-            <td>cmd+numpad1</td>
+            <td>ctrl+numpad1</td>
             <td>Close corresponding tool window (Explorer)</td>
             <td>?</td>
         </tr>
         <tr>
             <td>alt+3</td>
-            <td>cmd+3</td>
+            <td>ctrl+3</td>
             <td>Open corresponding tool window (Search)</td>
             <td>?</td>
         </tr>
         <tr>
             <td>alt+numpad3</td>
-            <td>cmd+numpad3</td>
+            <td>ctrl+numpad3</td>
             <td>Open corresponding tool window (Search)</td>
             <td>?</td>
         </tr>
         <tr>
             <td>alt+3</td>
-            <td>cmd+3</td>
+            <td>ctrl+3</td>
             <td>Close corresponding tool window (Search)</td>
             <td>?</td>
         </tr>
         <tr>
             <td>alt+numpad3</td>
-            <td>cmd+numpad3</td>
+            <td>ctrl+numpad3</td>
             <td>Close corresponding tool window (Search)</td>
             <td>?</td>
         </tr>
         <tr>
             <td>alt+5</td>
-            <td>cmd+5</td>
+            <td>ctrl+5</td>
             <td>Open corresponding tool window (Debug)</td>
             <td>?</td>
         </tr>
         <tr>
             <td>alt+numpad5</td>
-            <td>cmd+numpad5</td>
+            <td>ctrl+numpad5</td>
             <td>Open corresponding tool window (Debug)</td>
             <td>?</td>
         </tr>
         <tr>
             <td>alt+5</td>
-            <td>cmd+5</td>
+            <td>ctrl+5</td>
             <td>Close corresponding tool window (Debug)</td>
             <td>?</td>
         </tr>
         <tr>
             <td>alt+numpad5</td>
-            <td>cmd+numpad5</td>
+            <td>ctrl+numpad5</td>
             <td>Close corresponding tool window (Debug)</td>
             <td>?</td>
         </tr>
         <tr>
             <td>alt+9</td>
-            <td>cmd+9</td>
+            <td>ctrl+9</td>
             <td>Open corresponding tool window (Git)</td>
             <td>?</td>
         </tr>
         <tr>
             <td>alt+numpad9</td>
-            <td>cmd+numpad9</td>
+            <td>ctrl+numpad9</td>
             <td>Open corresponding tool window (Git)</td>
             <td>?</td>
         </tr>
         <tr>
             <td>alt+9</td>
-            <td>cmd+9</td>
+            <td>ctrl+9</td>
             <td>Close corresponding tool window (Git)</td>
             <td>?</td>
         </tr>
         <tr>
             <td>alt+numpad9</td>
-            <td>cmd+numpad9</td>
+            <td>ctrl+numpad9</td>
             <td>Close corresponding tool window (Git)</td>
             <td>?</td>
         </tr>
         <tr>
             <td>ctrl+s</td>
-            <td>cmd+s</td>
+            <td>ctrl+s</td>
             <td>Save all</td>
             <td>?</td>
         </tr>
         <tr>
             <td>ctrl+alt+y</td>
-            <td>cmd+alt+y</td>
+            <td>ctrl+alt+y</td>
             <td>Synchronize</td>
             <td>N/A</td>
         </tr>
         <tr>
             <td>ctrl+alt+f</td>
-            <td>ctrl+cmd+f</td>
+            <td>ctrl+ctrl+f</td>
             <td>Toggle full screen mode</td>
             <td>?</td>
         </tr>
         <tr>
             <td>ctrl+shift+f12</td>
-            <td>cmd+shift+f12</td>
+            <td>ctrl+shift+f12</td>
             <td>Toggle maximizing editor</td>
             <td>?</td>
         </tr>
@@ -1325,25 +1319,25 @@ A little bit of legend:
         </tr>
         <tr>
             <td>ctrl+alt+s</td>
-            <td>cmd+,</td>
+            <td>ctrl+,</td>
             <td>Open Settings dialog</td>
             <td>?</td>
         </tr>
         <tr>
             <td>ctrl+alt+s</td>
-            <td>cmd+numpad_separator</td>
+            <td>ctrl+numpad_separator</td>
             <td>Open Settings dialog</td>
             <td>?</td>
         </tr>
         <tr>
             <td>ctrl+alt+shift+s</td>
-            <td>cmd+;</td>
+            <td>ctrl+;</td>
             <td>Open Project Structure dialog</td>
             <td>?</td>
         </tr>
         <tr>
             <td>ctrl+shift+a</td>
-            <td>shift+cmd+a</td>
+            <td>shift+ctrl+a</td>
             <td>Find Action</td>
             <td>?</td>
         </tr>
@@ -1374,7 +1368,7 @@ A little bit of legend:
     <tbody>
         <tr>
             <td>ctrl+d</td>
-            <td>cmd+d</td>
+            <td>ctrl+d</td>
             <td>Compare Files</td>
             <td>?</td>
         </tr>
@@ -1404,13 +1398,13 @@ A little bit of legend:
         </tr>
         <tr>
             <td>alt+ctrl+enter</td>
-            <td>alt+cmd+enter</td>
+            <td>alt+ctrl+enter</td>
             <td>Start new line before current</td>
             <td>?</td>
         </tr>
         <tr>
             <td>shift+ctrl+enter</td>
-            <td>shift+cmd+enter</td>
+            <td>shift+ctrl+enter</td>
             <td>Start new line</td>
             <td>?</td>
         </tr>
@@ -1428,19 +1422,19 @@ A little bit of legend:
         </tr>
         <tr>
             <td>ctrl+shift+alt+j</td>
-            <td>ctrl+cmd+g</td>
+            <td>ctrl+ctrl+g</td>
             <td>Sublime Text style multiple selections</td>
             <td>?</td>
         </tr>
         <tr>
             <td>alt+left</td>
-            <td>shift+cmd+[</td>
+            <td>shift+ctrl+[</td>
             <td>Select previous tab (Terminal)</td>
             <td>?</td>
         </tr>
         <tr>
             <td>alt+right</td>
-            <td>shift+cmd+]</td>
+            <td>shift+ctrl+]</td>
             <td>Select next tab (Terminal)</td>
             <td>?</td>
         </tr>
@@ -1470,7 +1464,7 @@ A little bit of legend:
         </tr>
         <tr>
             <td>shift+ctrl+c</td>
-            <td>shift+cmd+c</td>
+            <td>shift+ctrl+c</td>
             <td>Copy paths</td>
             <td>?</td>
         </tr>
