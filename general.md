@@ -14,6 +14,24 @@ continue search forward: `n`
 continue search backward: `N`  
 find symbol on the line: `f{symbol}`  
 
+# Replacing
+replace first occurrence of `foo` with `bar`: `:s/foo/bar/`  
+replace all occurrences of `foo` with `bar` in file : `:%s/foo/bar/g`  
+replace all occurrences of `foo` with `bar` in line : `:s/foo/bar/g`  
+replace with empty string: `:s/foo//g`  
+replace with confirmation: `:s/foo/bar/gc` 
+confirmation mode:
+  - `y` replace
+  - `l` replace and quit
+  - `n` skip
+  - `q` quit
+  - `a` replace all
+
+*Note: search pattern can be regex!*
+```
+:%s/^foo.*/Vim is the best/gc
+```
+
 # Visual mode
 go to the character-wise visual mode: `v`  
 go to the line-wise visual mode: `V`  

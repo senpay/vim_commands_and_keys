@@ -63,8 +63,12 @@ syntax on
 nnoremap <C-d> Yp
 "show autocomplete options
 imap <C-space> <Plug>(asyncomplete_force_refresh)
-"format code using Black
+
+"format code using Black (use this on Linux or if Black is configured)
 map == :Black<CR>
+"format code using LSP (use this on Windows or if there's no Black)
+"map == :LspDocumentFormat<CR>
+
 "folding/unfolding
 nnoremap <C-=> zo	 
 nnoremap <C--> zc 

@@ -5,7 +5,7 @@ The utimate goal is to come up with the shortcuts that would work the same in al
   1. My tailored Vim installation
   2. VSCode + Intellij Keybindings + Vim Plugin
   3. Intellij IDEA + Vim Plugin
-In case there're conflicting shortcuts - resolve them using the order from the list above (the smallest number gets bigger priority).
+In case there're conflicting shortcuts - resolve them using the order from the list above (the smallest number gets bigger priority). The other cool thing is that Vim adds some capabilities missing in Intellij Keybindings.
 
 *Important bit: The key shortucts are actually a mix of Intellij Keybindings and Vim plugin shortcut. I would just choose what would be most natural/easier to configure from my standpoint. I also deleted duplication from the original table (where there were more than one way to do something).*
 
@@ -91,7 +91,7 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>ctrl+f1</td>
             <td>ctrl+f1</td>
             <td>Show descriptions of error or warning at caret</td>
-            <td>?</td>
+            <td>❌</td>
         </tr>
         <tr>
             <td>alt+insert</td>
@@ -127,37 +127,25 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>ctrl+/</td>
             <td>ctrl+/</td>
             <td>Comment/uncomment with line comment</td>
-            <td>?</td>
-        </tr>
-        <tr>
-            <td>ctrl+numpad_divide</td>
-            <td>ctrl+numpad_divide</td>
-            <td>Comment/uncomment with line comment</td>
-            <td>?</td>
+            <td>❌ (Use visual mode block selection instead)</td>
         </tr>
         <tr>
             <td>ctrl+shift+/</td>
             <td>ctrl+alt+/</td>
             <td>Comment/uncomment with block comment</td>
-            <td>?</td>
-        </tr>
-        <tr>
-            <td>ctrl+shift+numpad_divide</td>
-            <td>ctrl+alt+numpad_divide</td>
-            <td>Comment/uncomment with block comment</td>
-            <td>?</td>
+            <td>❌</td>
         </tr>
         <tr>
             <td>ctrl+w</td>
             <td>alt+up</td>
             <td>Select successively increasing code blocks</td>
-            <td>?</td>
+            <td>❌</td>
         </tr>
         <tr>
             <td>ctrl+shift+w</td>
             <td>alt+down</td>
             <td>Decrease current selection to previous state</td>
-            <td>?</td>
+            <td>❌</td>
         </tr>
         <tr>
             <td>alt+q</td>
@@ -175,19 +163,19 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>==</td>
             <td>==</td>
             <td>Reformat code</td>
-            <td>✅❌</td>
+            <td>✅(Using Black for Linux and Lsp for Windows. May require .vimrc change)</td>
         </tr>
         <tr>
-            <td>ctrl+alt+l</td>
-            <td>ctrl+alt+l</td>
+            <td>:LspDocumentRangeFormat</td>
+            <td>:LspDocumentRangeFormat</td>
             <td>Reformat selected code</td>
-            <td>❌</td>
+            <td>✅</td>
         </tr>
         <tr>
             <td>ctrl+alt+o</td>
             <td>ctrl+alt+o</td>
             <td>Optimize imports</td>
-            <td>?</td>
+            <td>❌</td>
         </tr>
         <tr>
             <td>ctrl+alt+i</td>
@@ -253,37 +241,37 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>ctrl+shift+j</td>
             <td>ctrl+shift+j</td>
             <td>Smart line join</td>
-            <td>?</td>
+            <td>❌</td>
         </tr>
         <tr>
             <td>ctrl+enter</td>
             <td>ctrl+enter</td>
             <td>Smart line split</td>
-            <td>?</td>
+            <td>❌</td>
         </tr>
         <tr>
-            <td>shift+enter</td>
-            <td>shift+enter</td>
+            <td>o</td>
+            <td>o</td>
             <td>Start new line</td>
-            <td>?</td>
+            <td>✅</td>
         </tr>
         <tr>
-            <td>ctrl+shift+u</td>
-            <td>ctrl+shift+u</td>
+            <td>~</td>
+            <td>~</td>
             <td>Toggle case for word at caret or selected block</td>
-            <td>N/A</td>
+            <td>✅</td>
         </tr>
         <tr>
-            <td>ctrl+shift+]</td>
-            <td>ctrl+shift+]</td>
+            <td>Use inner/outer concept (more details in editing.md)</td>
+            <td>Use inner/outer concept (more details in editing.md)</td>
             <td>Select till code block end</td>
-            <td>N/A</td>
+            <td>✅</td>
         </tr>
         <tr>
-            <td>ctrl+shift+[</td>
-            <td>ctrl+shift+[</td>
+            <td>Use inner/outer concept (more details in editing.md)</td>
+            <td>Use inner/outer concept (more details in editing.md)</td>
             <td>Select till code block start</td>
-            <td>N/A</td>
+            <td>✅</td>
         </tr>
         <tr>
             <td>dw</td>
@@ -301,13 +289,13 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>zo</td>
             <td>zo</td>
             <td>Expand code block</td>
-            <td>?</td>
+            <td>✅</td>
         </tr>
         <tr>
             <td>zc</td>
             <td>zc</td>
             <td>Collapse code block</td>
-            <td>?</td>
+            <td>✅</td>
         </tr>
         <tr>
             <td>ctrl+alt+=</td>
@@ -334,22 +322,22 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>✅</td>
         </tr>
         <tr>
-            <td>ctrl+f4</td>
-            <td>ctrl+w</td>
+            <td>:q</td>
+            <td>:q</td>
             <td>Close active editor tab</td>
-            <td>?</td>
+            <td>✅</td>
         </tr>
         <tr>
-            <td>alt+j</td>
-            <td>ctrl+g</td>
+            <td>gb</td>
+            <td>gb</td>
             <td>Add selection for Next Occurrence</td>
-            <td>?</td>
+            <td>✅ (works at least for words)</td>
         </tr>
         <tr>
             <td>alt+shift+j</td>
             <td>ctrl+shift+g</td>
             <td>Unselect Occurrence</td>
-            <td>?</td>
+            <td>❌</td>
         </tr>
         <tr>
             <td>shift+alt+down</td>
@@ -407,10 +395,10 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>✅</td>
         </tr>
         <tr>
-            <td>ctrl+r</td>
-            <td>ctrl+r</td>
+            <td>:s/{search pattern}/{replace with}/gc</td>
+            <td>:s/{search pattern}/{replace with}/gc</td>
             <td>Replace</td>
-            <td>?</td>
+            <td>✅ (see <a href="general.md">general\replace</a> for more details</td>
         </tr>
         <tr>
             <td>ctrl+shift+f</td>
@@ -846,7 +834,7 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>f2</td>
             <td>f2</td>
             <td>Next highlighted error</td>
-            <td>❌</td>
+            <td>?</td>
         </tr>
         <tr>
             <td>shift+f2</td>
