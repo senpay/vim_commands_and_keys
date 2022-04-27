@@ -2,10 +2,10 @@
 The final goal of my .vimrc is to make a vim-based replica of `VSCode + Intellij Keybindings + Vim Plugin` experience. That's why I start by copying the table from https://marketplace.visualstudio.com/items?itemName=k--kato.intellij-idea-keybindings.
 
 The utimate goal is to come up with the shortcuts that would work the same in all three:
-  - VSCode + Intellij Keybindings + Vim Plugin
-  - Intellij IDEA + Vim Plugin
-  - My tailored Vim installation
-
+  1. My tailored Vim installation
+  2. VSCode + Intellij Keybindings + Vim Plugin
+  3. Intellij IDEA + Vim Plugin
+In case there're conflicting shortcuts - resolve them using the order from the list above (the smallest number gets bigger priority).
 
 *Important bit: The key shortucts are actually a mix of Intellij Keybindings and Vim plugin shortcut. I would just choose what would be most natural/easier to configure from my standpoint. I also deleted duplication from the original table (where there were more than one way to do something).*
 
@@ -1357,34 +1357,28 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
     </thead>
     <tbody>
         <tr>
-            <td>ctrl+d</td>
-            <td>ctrl+d</td>
+            <td>:diffsplit {filename}</td>
+            <td>:diffsplit {filename}</td>
             <td>Compare Files</td>
-            <td>?</td>
+            <td>✅ (Vim only, no VSCode/IDEA)</td>
+        </tr>
+        <tr>
+            <td>:diffo!</td>
+            <td>:diffo!</td>
+            <td>Exit compare mode</td>
+            <td>✅ (Vim only, no VSCode/IDEA)</td>
         </tr>
         <tr>
             <td>f7</td>
             <td>f7</td>
             <td>Next difference</td>
-            <td>?</td>
+            <td>❌</td>
         </tr>
         <tr>
             <td>shift+f7</td>
             <td>shift+f7</td>
             <td>Previous difference</td>
-            <td>?</td>
-        </tr>
-        <tr>
-            <td>f7</td>
-            <td>f7</td>
-            <td>Next difference</td>
-            <td>?</td>
-        </tr>
-        <tr>
-            <td>shift+f7</td>
-            <td>shift+f7</td>
-            <td>Previous difference</td>
-            <td>?</td>
+            <td>❌</td>
         </tr>
         <tr>
             <td>O</td>
@@ -1438,7 +1432,7 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>shift+alt+tab</td>
             <td>shift+alt+tab</td>
             <td>Goto previous splitter</td>
-            <td>?</td>
+            <td>❌</td>
         </tr>
         <tr>
             <td>enter</td>
@@ -1450,13 +1444,13 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>alt+home</td>
             <td>alt+home</td>
             <td>Jump to Navigation Bar</td>
-            <td>?</td>
+            <td>❌</td>
         </tr>
         <tr>
             <td>shift+ctrl+c</td>
             <td>shift+ctrl+c</td>
             <td>Copy paths</td>
-            <td>?</td>
+            <td>❌</td>
         </tr>
     </tbody>
 </table>
