@@ -166,6 +166,12 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>✅(Using Black for Linux and Lsp for Windows. May require .vimrc change)</td>
         </tr>
         <tr>
+            <td>:Black</td>
+            <td>:LspDocumentFormat</td>
+            <td>Reformat code</td>
+            <td>✅(fallback option - if hotkey isn't working)</td>
+        </tr>
+        <tr>
             <td>:LspDocumentRangeFormat</td>
             <td>:LspDocumentRangeFormat</td>
             <td>Reformat selected code</td>
