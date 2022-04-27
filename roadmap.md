@@ -1173,13 +1173,13 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>alt+0</td>
             <td>ctrl+0</td>
             <td>Activate Messages window (Problems)</td>
-            <td>?</td>
+            <td>❌</td>
         </tr>
         <tr>
             <td>alt+numpad0</td>
             <td>ctrl+numpad0</td>
             <td>Activate Messages window (Problems)</td>
-            <td>?</td>
+            <td>❌</td>
         </tr>
         <tr>
             <td>:NERDTree</td>
@@ -1305,25 +1305,19 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>ctrl+`</td>
             <td>ctrl+`</td>
             <td>Quick switch current scheme</td>
-            <td>?</td>
-        </tr>
-        <tr>
-            <td>ctrl+alt+s</td>
-            <td>ctrl+,</td>
-            <td>Open Settings dialog</td>
-            <td>?</td>
+            <td>❌</td>
         </tr>
         <tr>
             <td>ctrl+alt+s</td>
             <td>ctrl+numpad_separator</td>
             <td>Open Settings dialog</td>
-            <td>?</td>
+            <td>❌</td>
         </tr>
         <tr>
             <td>ctrl+alt+shift+s</td>
             <td>ctrl+;</td>
             <td>Open Project Structure dialog</td>
-            <td>?</td>
+            <td>❌</td>
         </tr>
         <tr>
             <td>ctrl+shift+a</td>
