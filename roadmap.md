@@ -163,7 +163,7 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>alt+enter</td>
             <td>alt+enter</td>
             <td>Show intention actions and quick-fixes</td>
-            <td>✅ (VSCode/ Intellij)</td>
+            <td>✅ (VSCode/ Intellij, code also work in command-line vim)</td>
         </tr>
         <tr>
             <td>==</td>
