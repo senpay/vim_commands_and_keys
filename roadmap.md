@@ -9,8 +9,9 @@ A little bit of legend:
   - ❌✅ - supported in windows but not linux
   - ✅❌ - supported in linux but not windows
   - ✅ - supported both in linux and windows
-  - ❌ - nut supported both in linux and winodws
+  - ❌ - nut supported both in linux and windows
   - N/A - is not supported in the original plugin
+  - ? - not configured/tested yet
 
 
 
