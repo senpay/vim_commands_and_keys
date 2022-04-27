@@ -67,6 +67,8 @@ nnoremap <C-d> Yp
 map <M-CR> :LspCodeActions<CR>
 map <M-F7> :LspReferences<CR>
 map <S-F6> :LspRename<CR>
+map <C-h> :LspTypeHierarchy<CR>
+map <F2> :LspNextError<CR>
 
 "show autocomplete options
 imap <C-space> <Plug>(asyncomplete_force_refresh)

@@ -11,6 +11,8 @@ In case there're conflicting shortcuts - resolve them using the order from the l
 
 *Another bit: For now I have single .vimrc both for Windows and Linux. It can change.*
 
+*Yet another bit: many LSP commands are not mapped. Use command autocompletion to find out!*
+
 A little bit of legend:
   - ❎✅ - supported in windows but not linux
   - ✅❎ - supported in linux but not windows
@@ -641,7 +643,7 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>ctrl+f8</td>
             <td>ctrl+f8</td>
             <td>Toggle breakpoint</td>
-            <td>❎ (no current Debug support)?</td>
+            <td>❎ (no current Debug support)</td>
         </tr>
         <tr>
             <td>ctrl+shift+f8</td>
@@ -666,19 +668,25 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>ctrl+n</td>
             <td>ctrl+o</td>
             <td>Go to class</td>
-            <td>?</td>
+            <td>❎</td>
+        </tr>
+        <tr>
+            <td>:open {filename}</td>
+            <td>:open {filename}</td>
+            <td>Go to file</td>
+            <td>✅ (Vim version)</td>
         </tr>
         <tr>
             <td>ctrl+shift+n</td>
             <td>ctrl+shift+o</td>
             <td>Go to file</td>
-            <td>?</td>
+            <td>✅ (VSCode/Intellij)</td>
         </tr>
         <tr>
             <td>ctrl+alt+shift+n</td>
             <td>ctrl+alt+o</td>
             <td>Go to symbol</td>
-            <td>?</td>
+            <td>❎</td>
         </tr>
         <tr>
             <td>alt+left</td>
@@ -786,37 +794,37 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>ctrl+b</td>
             <td>ctrl+b</td>
             <td>Go to declaration</td>
-            <td>?</td>
+            <td>❎</td>
+        </tr>
+        <tr>
+            <td>gd</td>
+            <td>gd</td>
+            <td>Go to implementation(s)</td>
+            <td>✅ (Vim/VSCode/Intellij)</td>
         </tr>
         <tr>
             <td>ctrl+alt+b</td>
             <td>ctrl+alt+b</td>
             <td>Go to implementation(s)</td>
-            <td>?</td>
+            <td>✅ (VSCode/Intellij)</td>
         </tr>
         <tr>
             <td>ctrl+shift+i</td>
             <td>alt+space</td>
             <td>Open quick definition lookup</td>
-            <td>?</td>
-        </tr>
-        <tr>
-            <td>N/A</td>
-            <td>ctrl+y</td>
-            <td>Open quick definition lookup</td>
-            <td>?</td>
+            <td>❎</td>
         </tr>
         <tr>
             <td>ctrl+shift+b</td>
             <td>ctrl+shift+b</td>
             <td>Go to type declaration</td>
-            <td>?</td>
+            <td>❎</td>
         </tr>
         <tr>
             <td>ctrl+u</td>
             <td>ctrl+u</td>
             <td>Go to super-method/super-class</td>
-            <td>?</td>
+            <td>❎</td>
         </tr>
         <tr>
             <td>alt+up</td>
@@ -858,7 +866,7 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>ctrl+h</td>
             <td>ctrl+h</td>
             <td>Type hierarchy</td>
-            <td>?</td>
+            <td>✅</td>
         </tr>
         <tr>
             <td>ctrl+shift+h</td>
@@ -870,13 +878,13 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>ctrl+alt+h</td>
             <td>ctrl+alt+h</td>
             <td>Call hierarchy</td>
-            <td>?</td>
+            <td>❎</td>
         </tr>
         <tr>
             <td>f2</td>
             <td>f2</td>
             <td>Next highlighted error</td>
-            <td>?</td>
+            <td>✅</td>
         </tr>
         <tr>
             <td>shift+f2</td>
