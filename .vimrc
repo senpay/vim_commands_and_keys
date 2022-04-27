@@ -66,6 +66,7 @@ nnoremap <C-d> Yp
 "Doesn't work in window-ed environment, conflicts with full screen hotkey
 map <M-CR> :LspCodeActions<CR>
 map <M-F7> :LspReferences<CR>
+map <S-F6> :LspRename<CR>
 
 "show autocomplete options
 imap <C-space> <Plug>(asyncomplete_force_refresh)

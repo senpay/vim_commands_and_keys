@@ -991,13 +991,13 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>ctrl+alt+shift+t</td>
             <td>ctrl+t</td>
             <td>Refactor This...</td>
-            <td>?</td>
+            <td>❌ (unfortunately)</td>
         </tr>
         <tr>
             <td>f6</td>
             <td>f6</td>
             <td>Move</td>
-            <td>?</td>
+            <td>❌ (unfortunately)</td>
         </tr>
         <tr>
             <td>alt+delete</td>
@@ -1009,19 +1009,19 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>shift+f6</td>
             <td>shift+f6</td>
             <td>Rename</td>
-            <td>?</td>
+            <td>✅</td>
         </tr>
         <tr>
             <td>shift+f6</td>
             <td>shift+f6</td>
             <td>Select All Occurrences</td>
-            <td>?</td>
+            <td>❌ (for Vim use gd)</td>
         </tr>
         <tr>
             <td>shift+f6</td>
             <td>shift+f6</td>
             <td>Rename (File)</td>
-            <td>?</td>
+            <td>❌</td>
         </tr>
         <tr>
             <td>ctrl+f6</td>
@@ -1039,25 +1039,25 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>ctrl+alt+m</td>
             <td>ctrl+alt+m</td>
             <td>Extract Method</td>
-            <td>?</td>
+            <td>❌ (unfortunately)</td>
         </tr>
         <tr>
             <td>ctrl+alt+v</td>
             <td>ctrl+alt+v</td>
             <td>Extract Variable</td>
-            <td>?</td>
+            <td>❌ (unfortunately)</td>
         </tr>
         <tr>
             <td>ctrl+alt+f</td>
             <td>ctrl+alt+f</td>
             <td>Extract Field</td>
-            <td>?</td>
+            <td>❌ (unfortunately)</td>
         </tr>
         <tr>
             <td>ctrl+alt+c</td>
             <td>ctrl+alt+c</td>
             <td>Extract Constant</td>
-            <td>?</td>
+            <td>❌ (unfortunately)</td>
         </tr>
         <tr>
             <td>ctrl+alt+p</td>
