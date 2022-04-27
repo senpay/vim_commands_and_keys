@@ -9,7 +9,7 @@ Plugin manager I use: https://github.com/junegunn/vim-plug
 [Editing](editing.md)
 
 # VIMRC I use
-[.vimrc](.vimrc)
+[.vimrc](.vimrc)  
 [Roadmap and currently supported bindings](roadmap.md)
 
 # External links
