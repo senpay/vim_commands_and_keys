@@ -587,19 +587,19 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>ctrl+f2</td>
             <td>ctrl+f2</td>
             <td>Stop</td>
-            <td>?</td>
+            <td>❌ (no current Debug support)</td>
         </tr>
         <tr>
             <td>f8</td>
             <td>f8</td>
             <td>Step over</td>
-            <td>?</td>
+            <td>❌ (no current Debug support)</td>
         </tr>
         <tr>
             <td>f7</td>
             <td>f7</td>
             <td>Step into</td>
-            <td>?</td>
+            <td>❌ (no current Debug support)</td>
         </tr>
         <tr>
             <td>shift+f7</td>
@@ -611,43 +611,43 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>shift+f8</td>
             <td>shift+f8</td>
             <td>Step out</td>
-            <td>?</td>
+            <td>❌ (no current Debug support)</td>
         </tr>
         <tr>
             <td>alt+f9</td>
             <td>alt+f9</td>
             <td>Run to cursor</td>
-            <td>?</td>
+            <td>❌ (no current Debug support)</td>
         </tr>
         <tr>
             <td>alt+f8</td>
             <td>alt+f8</td>
             <td>Evaluate expression</td>
-            <td>?</td>
+            <td>❌ (no current Debug support)</td>
         </tr>
         <tr>
             <td>alt+f8</td>
             <td>alt+f8</td>
             <td>Evaluate expression (selection)</td>
-            <td>?</td>
+            <td>❌ (no current Debug support)</td>
         </tr>
         <tr>
             <td>f9</td>
             <td>ctrl+alt+r</td>
             <td>Resume program</td>
-            <td>?</td>
+            <td>❌ (no current Debug support)</td>
         </tr>
         <tr>
             <td>ctrl+f8</td>
             <td>ctrl+f8</td>
             <td>Toggle breakpoint</td>
-            <td>?</td>
+            <td>❌ (no current Debug support)?</td>
         </tr>
         <tr>
             <td>ctrl+shift+f8</td>
             <td>ctrl+shift+f8</td>
             <td>View breakpoints</td>
-            <td>?</td>
+            <td>❌ (no current Debug support)</td>
         </tr>
     </tbody>
 </table>
@@ -1198,25 +1198,25 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>alt+5</td>
             <td>ctrl+5</td>
             <td>Open corresponding tool window (Debug)</td>
-            <td>?</td>
+            <td>❌ (no current Debug window support)</td>
         </tr>
         <tr>
             <td>alt+numpad5</td>
             <td>ctrl+numpad5</td>
             <td>Open corresponding tool window (Debug)</td>
-            <td>?</td>
+            <td>❌ (no current Debug window support)</td>
         </tr>
         <tr>
             <td>alt+5</td>
             <td>ctrl+5</td>
             <td>Close corresponding tool window (Debug)</td>
-            <td>?</td>
+            <td>❌ (no current Debug window support)</td>
         </tr>
         <tr>
             <td>alt+numpad5</td>
             <td>ctrl+numpad5</td>
             <td>Close corresponding tool window (Debug)</td>
-            <td>?</td>
+            <td>❌ (no current Debug window support)</td>
         </tr>
         <tr>
             <td>alt+9</td>
