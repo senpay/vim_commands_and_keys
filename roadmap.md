@@ -15,7 +15,7 @@ A little bit of legend:
   - ❌✅ - supported in windows but not linux
   - ✅❌ - supported in linux but not windows
   - ✅ - supported both in linux and windows
-  - ❌ - nut supported both in linux and windows
+  - ❌ - not supported in Vim, but supported in VSCode/Intellij (both in linux and windows)
   - N/A - is not supported in the original plugin
   - ? - not configured/tested yet
 
@@ -67,13 +67,13 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>ctrl+p</td>
             <td>ctrl+p</td>
             <td>Parameter info (within method call arguments)</td>
-            <td>?</td>
+            <td>❌</td>
         </tr>
         <tr>
             <td>ctrl+q</td>
             <td>ctrl+j</td>
             <td>Quick documentation lookup</td>
-            <td>?</td>
+            <td>❌</td>
         </tr>
         <tr>
             <td>ctrl+f1</td>
@@ -82,10 +82,10 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>N/A</td>
         </tr>
         <tr>
-            <td>ctrl+mouseover</td>
-            <td>ctrl+mouseover</td>
+            <td>:LspHover</td>
+            <td>:LspHover</td>
             <td>Brief Info</td>
-            <td>N/A</td>
+            <td>✅ (Vim version)</td>
         </tr>
         <tr>
             <td>ctrl+f1</td>
@@ -97,25 +97,25 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>alt+insert</td>
             <td>ctrl+n</td>
             <td>Generate code... (Getters, Setters, Constructors, hashCode/equals, toString)</td>
-            <td>?</td>
+            <td>❌ (no current support, maybe in the future)</td>
         </tr>
         <tr>
             <td>alt+insert</td>
             <td>ctrl+n</td>
             <td>New...</td>
-            <td>?</td>
+            <td>❌ (Use normal vim editing instead)</td>
         </tr>
         <tr>
             <td>ctrl+o</td>
             <td>ctrl+o</td>
             <td>Override methods</td>
-            <td>?</td>
+            <td>❌</td>
         </tr>
         <tr>
             <td>ctrl+i</td>
             <td>ctrl+i</td>
             <td>Implement methods</td>
-            <td>?</td>
+            <td>❌</td>
         </tr>
         <tr>
             <td>ctrl+alt+t</td>
@@ -154,10 +154,16 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>N/A</td>
         </tr>
         <tr>
+            <td>:LspCodeActions</td>
+            <td>:LspCodeAction</td>
+            <td>Show intention actions and quick-fixes</td>
+            <td>✅ Vim version</td>
+        </tr>
+        <tr>
             <td>alt+enter</td>
             <td>alt+enter</td>
             <td>Show intention actions and quick-fixes</td>
-            <td>?</td>
+            <td>✅ (VSCode/ Intellij)</td>
         </tr>
         <tr>
             <td>==</td>
@@ -172,10 +178,22 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>✅(fallback option - if hotkey isn't working)</td>
         </tr>
         <tr>
+            <td>ctrl+alt+l</td>
+            <td>ctrl+alt+l</td>
+            <td>Reformat code</td>
+            <td>✅(VSCode/Intellij)</td>
+        </tr>
+        <tr>
             <td>:LspDocumentRangeFormat</td>
             <td>:LspDocumentRangeFormat</td>
             <td>Reformat selected code</td>
             <td>✅</td>
+        </tr>
+        <tr>
+            <td>ctrl+alt+l</td>
+            <td>ctrl+alt+l</td>
+            <td>Reformat selected code</td>
+            <td>✅(VSCode/Intellij)</td>
         </tr>
         <tr>
             <td>ctrl+alt+o</td>
@@ -196,11 +214,23 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>✅</td>
         </tr>
         <tr>
+            <td>tab</td>
+            <td>tab</td>
+            <td>Indent selected lines</td>
+            <td>✅ (VSCode/Intellij only)</td>
+        </tr>
+        <tr>
             <td><<</td>
             <td><<</td>
             <td>Unindent selected lines</td>
             <td>✅</td>
         </tr>
+        <tr>
+            <td>shift+tab</td>
+            <td>shift+tab</td>
+            <td>Unindent selected lines</td>
+            <td>✅ (VSCode/Intellij only)</td>
+        </tr>        
         <tr>
             <td>dd</td>
             <td>dd</td>
@@ -286,10 +316,10 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>✅</td>
         </tr>
         <tr>
-            <td>ctrl+backspace</td>
-            <td>alt+backspace</td>
+            <td>db</td>
+            <td>db</td>
             <td>Delete to word start</td>
-            <td>?</td>
+            <td>✅</td>
         </tr>
         <tr>
             <td>zo</td>
@@ -380,7 +410,13 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>shift shift</td>
             <td>shift shift</td>
             <td>Search everywhere</td>
-            <td>?</td>
+            <td>✅ (VSCode/Intellij only)</td>
+        </tr>
+        <tr>
+            <td>Use grep, for example: grep -R '.ad' .</td>
+            <td>Use grep, for example: grep -R '.ad' .</td>
+            <td>Search everywhere</td>
+            <td>✅ (Vim only, more info <a href="https://sparkbox.com/foundry/demystifying_multi_file_searches_in_vim_and_the_command_line">here</a>)</td>
         </tr>
         <tr>
             <td>/{pattern}</td>
