@@ -2,6 +2,7 @@
 ## Editing commands
 copy (yanking): `y`  
 delete: `d`  
+replace selected (word, line, whatever): `c`  
 Copy whole line: `Y`   
 duplicate line:  `YP` or `Yp`  
 delete the whole like: `dd`  
