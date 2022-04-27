@@ -14,6 +14,7 @@ A little bit of legend:
   - ? - not configured/tested yet
 
 
+BTW, you think I need to configure something in `.vimrc`? Feel free to raise ticket or suggest a PR!
 
 <table>
     <thead>
@@ -47,13 +48,13 @@ A little bit of legend:
             <td>tab</td>
             <td>tab</td>
             <td>Choose Lookup Item Replace</td>
-            <td>?</td>
+            <td>❌</td>
         </tr>
         <tr>
             <td>ctrl+shift+enter</td>
             <td>ctrl+shift+enter</td>
             <td>Complete statement</td>
-            <td>?</td>
+            <td>❌</td>
         </tr>
         <tr>
             <td>ctrl+p</td>
