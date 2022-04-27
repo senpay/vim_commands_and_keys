@@ -10,7 +10,7 @@ Plugin manager I use: https://github.com/junegunn/vim-plug
 
 # VIMRC I use
 [.vimrc](.vimrc)
-[Roadmap](roadmap.md)
+[Roadmap and currently supported bindings](roadmap.md)
 
 # External links
 https://www.barbarianmeetscoding.com/boost-your-coding-fu-with-vscode-and-vim/cheatsheet
