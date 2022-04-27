@@ -117,3 +117,6 @@ set encoding=utf-8
 "make sure syntax hightlight is on
 "let python_highlight_all=1
 
+"Start NERDTree automatically and move cursor to editor window
+autocmd VimEnter * NERDTree
+autocmd VimEnter * wincmd p
