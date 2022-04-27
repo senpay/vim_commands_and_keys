@@ -446,13 +446,13 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>ctrl+shift+f</td>
             <td>ctrl+shift+f</td>
             <td>Find in path</td>
-            <td>?</td>
+            <td>❌</td>
         </tr>
         <tr>
             <td>ctrl+shift+r</td>
             <td>ctrl+shift+r</td>
             <td>Replace in path</td>
-            <td>?</td>
+            <td>❌</td>
         </tr>
         <tr>
             <td>ctrl+shift+s</td>
@@ -483,13 +483,13 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>alt+f7</td>
             <td>alt+f7</td>
             <td>Find usages</td>
-            <td>?</td>
+            <td>✅</td>
         </tr>
         <tr>
             <td>alt+ctrl+f7</td>
             <td>alt+ctrl+f7</td>
             <td>Show usages</td>
-            <td>?</td>
+            <td>❌</td>
         </tr>
         <tr>
             <td>ctrl+f7</td>
@@ -525,8 +525,8 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
         <tr>
             <td>ctrl+f9</td>
             <td>ctrl+f9</td>
-            <td>Make project (compile modifed and dependent)</td>
-            <td>?</td>
+            <td>Make project (compile modified and dependent)</td>
+            <td>❌ (use command line instead)</td>
         </tr>
         <tr>
             <td>ctrl+shift+f9</td>
@@ -538,19 +538,19 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>alt+shift+f10</td>
             <td>ctrl+alt+r</td>
             <td>Select configuration and run</td>
-            <td>?</td>
+            <td>❌ (use command line instead)</td>
         </tr>
         <tr>
             <td>alt+shift+f9</td>
             <td>ctrl+alt+d</td>
             <td>Select configuration and debug</td>
-            <td>?</td>
+            <td>❌ (use command line instead)</td>
         </tr>
         <tr>
             <td>shift+f10</td>
             <td>ctrl+r</td>
             <td>Run</td>
-            <td>?</td>
+            <td>❌ (use command line instead)</td>
         </tr>
         <tr>
             <td>shift+f9</td>
