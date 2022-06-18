@@ -9,9 +9,9 @@ Plugin manager I use: https://github.com/junegunn/vim-plug
 [Editing](editing.md)
 
 # Configs I use
-[.vimrc](.vimrc)
-[settings.json](vscode_settings.md)
-[Roadmap and currently supported bindings](roadmap.md)
+[.vimrc](.vimrc)  
+[settings.json](vscode_settings.md)  
+[Roadmap and currently supported bindings](roadmap.md)  
 
 # External links
 https://www.barbarianmeetscoding.com/boost-your-coding-fu-with-vscode-and-vim/cheatsheet  
