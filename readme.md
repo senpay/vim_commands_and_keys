@@ -8,8 +8,9 @@ Plugin manager I use: https://github.com/junegunn/vim-plug
 [Navigation](navigation.md)  
 [Editing](editing.md)
 
-# VIMRC I use
-[.vimrc](.vimrc)  
+# Configs I use
+[.vimrc](.vimrc)
+[settings.json](vscode_settings.md)
 [Roadmap and currently supported bindings](roadmap.md)
 
 # External links
