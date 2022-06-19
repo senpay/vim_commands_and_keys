@@ -1023,7 +1023,7 @@ BTW, you think I need to configure something in `.vimrc`? Feel free to raise tic
             <td>shift+f6</td>
             <td>shift+f6</td>
             <td>Select All Occurrences</td>
-            <td>❎ (for Vim use gd)</td>
+            <td>❎ (for Vim use gb)</td>
         </tr>
         <tr>
             <td>shift+f6</td>
