@@ -5,7 +5,7 @@ delete: `d`
 replace selected (word, line, whatever): `c`  
 Copy whole line: `Y`   
 duplicate line:  `YP` or `Yp`  
-delete the whole like: `dd`  
+delete the whole line: `dd`  
 delete paragraph: `dp`  
 delete until end of line: `D`  
 paste: `p`  
