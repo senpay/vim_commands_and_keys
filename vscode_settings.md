@@ -3,6 +3,8 @@ Here're vimmode related changes to settings.json which are required for bindings
 ```
     "vim.useSystemClipboard": true,
     "vim.handleKeys": {
-        "<C-d>": false
+        "<C-d>": false,
+        "<C-c>": false,
+        "<C-v>": false
     },
 ```
